@@ -25,7 +25,7 @@ export default defineConfig({
     nav: [{ text: "Home", link: "/" }],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/ba-archive/blue-archive" },
+      { icon: "github", link: "https://github.com/PalaisMermonia/FURINA" },
     ],
   },
 
