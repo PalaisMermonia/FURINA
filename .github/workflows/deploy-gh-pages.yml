@@ -1,0 +1,61 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy Website To GitHub Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches:
+      - master
+      - main
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: https://PalaisMermonia.github.io/FURINA/
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
+      - name: Verify Change Logs
+        run: node common/scripts/install-run-rush.js change --verify
+      - name: Rush Update
+        run: node common/scripts/install-run-rush.js update
+      - name: Rush Install
+        run: node common/scripts/install-run-rush.js install
+      - name: Rush build
+        run: node common/scripts/install-run-rush.js build --only palais-mermonia --verbose
+
+      - name: Setup Pages
+        uses: actions/configure-pages@main
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@main
+        with:
+          # Upload dist repository
+          path: "./palais-mermonia/docs/.vitepress/dist"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@main
