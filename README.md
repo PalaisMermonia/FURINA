@@ -1,9 +1,11 @@
 # FURINA
 
+<div align="center" style="width: 100%; display: flex; justify-content: center">
+  <img src="https://github.com/PalaisMermonia/FURINA/assets/9006264/e246347e-f7f4-4583-90d4-7f0d69e246c4" width="128" />
+</div>
+
 > 芙门 🙏
 
-几个原神 bot 全没了，十分甚至九分心痛。虽然之前已经说过不会再做写 bot 这种又费时又费力[社区还把自己当儿子](https://github.com/Arondight/Adachi-BOT/issues/223)的事情了，但是总是有人要站出来的
+一个还在写的基于 koishi 的 bot
 
-芙芙，让我也体验一下你五百年来的痛苦罢！
-
-PS: 这个项目是先有文档后有代码的，因为我习惯先动脑再动手。加上我之前没用过 koishi，所以会一边设计架构一边学
+[文档](https://palaismermonia.github.io/FURINA/)
