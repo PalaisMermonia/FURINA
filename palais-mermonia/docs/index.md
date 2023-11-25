@@ -13,9 +13,9 @@ hero:
     - theme: alt
       text: 开发指南
       link: /dev/structure
-  # image:
-  #   src: /cover.png
-  #   alt: eden-cover
+  image:
+    src: /image/icon/FURINA_logo_rounded.svg
+    alt: eden-cover
 
 features:
   - title: Feature A
