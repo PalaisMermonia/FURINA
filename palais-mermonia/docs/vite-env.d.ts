@@ -4,6 +4,6 @@ interface ViewTransition {
   updateCallbackDone: Promise<void>;
 }
 
-declare interface Document {
+interface Document {
   startViewTransition?: (callback: () => void) => ViewTransition;
 }

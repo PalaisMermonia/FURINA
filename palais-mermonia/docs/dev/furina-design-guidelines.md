@@ -234,37 +234,37 @@ const successGroup = {
       color: "#00b42a",
       darkColor: "#8ED051",
       description: "常规",
-      token: "success-6",
+      token: "color-success-6",
     },
     {
       color: "#88d045",
       darkColor: "#7AC43D",
       description: "悬浮",
-      token: "success-5",
+      token: "color-success-5",
     },
     {
       color: "#53a618",
       darkColor: "#AADC74",
       description: "点击",
-      token: "success-7",
+      token: "color-success-7",
     },
     {
       color: "#c0e790",
       darkColor: "#408814",
       description: "禁用",
-      token: "success-3",
+      token: "color-success-3",
     },
     {
       color: "#dbf3ba",
       darkColor: "#296A07",
       description: "特殊场景",
-      token: "success-2",
+      token: "color-success-2",
     },
     {
       color: "#f6ffe8",
       darkColor: "#184D00",
       description: "浅色背景",
-      token: "success-1",
+      token: "color-success-1",
     },
   ]
 };
@@ -277,37 +277,37 @@ const warningGroup = {
       color: "#ffd700",
       darkColor: "#FF9626",
       description: "常规",
-      token: "warning-6",
+      token: "color-warning-6",
     },
     {
       color: "#FF9A2E",
       darkColor: "#FF8D1F",
       description: "悬浮",
-      token: "warning-5",
+      token: "color-warning-5",
     },
     {
       color: "#D25F00",
       darkColor: "#FFB357",
       description: "点击",
-      token: "warning-7",
+      token: "color-warning-7",
     },
     {
       color: "#FFCF8B",
       darkColor: "#A64B0A",
       description: "禁用",
-      token: "warning-3",
+      token: "color-warning-3",
     },
     {
       color: "#FFE4BA",
       darkColor: "#793004",
       description: "特殊场景",
-      token: "warning-2",
+      token: "color-warning-2",
     },
     {
       color: "#FFF7E8",
       darkColor: "#4D1B00",
       description: "浅色背景",
-      token: "warning-1",
+      token: "color-warning-1",
     },
   ]
 };
@@ -320,37 +320,37 @@ const dangerGroup = {
       color: "#E9583B",
       darkColor: "#ED7D60",
       description: "常规",
-      token: "danger-6",
+      token: "color-danger-6",
     },
     {
       color: "#ED795B",
       darkColor: "#E96449",
       description: "悬浮",
-      token: "danger-5",
+      token: "color-danger-5",
     },
     {
       color: "#C23A25",
       darkColor: "#F29B81",
       description: "点击",
-      token: "danger-7",
+      token: "color-danger-7",
     },
     {
       color: "#F6B79F",
       darkColor: "#9B2215",
       description: "禁用",
-      token: "danger-3",
+      token: "color-danger-3",
     },
     {
       color: "#FBD4C3",
       darkColor: "#740D05",
       description: "特殊场景",
-      token: "danger-2",
+      token: "color-danger-2",
     },
     {
       color: "#FFF0E8",
       darkColor: "#4D0300",
       description: "浅色背景",
-      token: "danger-1",
+      token: "color-danger-1",
     },
   ]
 };
@@ -364,25 +364,31 @@ const dangerGroup = {
 
 ### 主色 / Primary Color
 
-<ColorPaletteGroup :group="furinaBlueGroup" />
+<ClientOnly>
+  <ColorPaletteGroup :group="furinaBlueGroup" />
+</ClientOnly>
 
 ### 中性色 / Neutral Color
 
-<ColorPaletteGroup :group="grayGroup" />
-<a-space />
-<ColorPaletteGroup :group="fillGroup" />
-<a-space />
-<ColorPaletteGroup :group="textGroup" />
-<a-space />
-<ColorPaletteGroup :group="borderGroup" />
+<ClientOnly>
+  <ColorPaletteGroup :group="grayGroup" />
+  <a-space />
+  <ColorPaletteGroup :group="fillGroup" />
+  <a-space />
+  <ColorPaletteGroup :group="textGroup" />
+  <a-space />
+  <ColorPaletteGroup :group="borderGroup" />
+</ClientOnly>
 
 ### 功能色 / Functional Color
 
-<ColorPaletteGroup :group="successGroup" />
-<a-space />
-<ColorPaletteGroup :group="warningGroup" />
-<a-space />
-<ColorPaletteGroup :group="dangerGroup" />
+<ClientOnly>
+  <ColorPaletteGroup :group="successGroup" />
+  <a-space />
+  <ColorPaletteGroup :group="warningGroup" />
+  <a-space />
+  <ColorPaletteGroup :group="dangerGroup" />
+</ClientOnly>
 
 ### 元素色 / Element Color
 

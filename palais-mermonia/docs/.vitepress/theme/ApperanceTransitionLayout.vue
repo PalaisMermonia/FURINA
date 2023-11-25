@@ -15,14 +15,16 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
     return;
   }
 
-  await document.startViewTransition(async () => {
-    isDark.value = !isDark.value;
-    await nextTick();
-  }).ready;
+  if ("function" === typeof document.startViewTransition) {
+    await document.startViewTransition(async () => {
+      isDark.value = !isDark.value;
+      await nextTick();
+    }).ready;
+  }
 
   document
     .querySelector("body")
-    .setAttribute("arco-theme", isDark.value ? "dark" : "");
+    ?.setAttribute("arco-theme", isDark.value ? "dark" : "");
 
   document.documentElement.animate(
     { opacity: isDark.value ? [1, 0] : [0, 1] },
@@ -37,7 +39,7 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
 onBeforeMount(() => {
   document
     .querySelector("body")
-    .setAttribute("arco-theme", isDark.value ? "dark" : "");
+    ?.setAttribute("arco-theme", isDark.value ? "dark" : "");
 });
 </script>
 

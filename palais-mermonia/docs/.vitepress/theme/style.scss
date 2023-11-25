@@ -5,6 +5,97 @@
 @import url("https://fonts.blue-archive.io/misans-webfont/misans-400-regular.min.css");
 @import url("https://fonts.blue-archive.io/misans-webfont/misans-600-semibold.min.css");
 
+:root {
+  --color-furina-blue-6: #5a56bf;
+  --color-furina-blue-5: #756fcc;
+  --color-furina-blue-7: #3737a2;
+  --color-furina-blue-4: #9189d9;
+  --color-furina-blue-3: #afa7e5;
+  --color-furina-blue-2: #cdc6f2;
+  --color-furina-blue-1: #ede8ff;
+
+  --color-border-4: #a0a0a0;
+  --color-border-3: #b3b3b3;
+  --color-border-2: #ececec;
+  --color-border-1: #f2f2f2;
+  --color-fill-5: #616161;
+  --color-fill-4: #818181;
+  --color-fill-3: #c0c0c0;
+  --color-fill-2: #dfdfdf;
+  --color-fill-1: #f2f2f2;
+  --color-fill-base: #ffffff;
+  --color-text-5: #242424;
+  --color-text-4: #505050;
+  --color-text-3: #7c7c7c;
+  --color-text-2: #bdbdbd;
+  --color-text-1: #ffffff;
+
+  --color-success-6: #6dc425;
+  --color-success-5: #88d045;
+  --color-success-7: #53a618;
+  --color-success-3: #c0e790;
+  --color-success-2: #dbf3ba;
+  --color-success-1: #f6ffe8;
+
+  --color-danger-6: #e9583b;
+  --color-danger-5: #ed795b;
+  --color-danger-7: #c23a25;
+  --color-danger-3: #f6b79f;
+  --color-danger-2: #fbd4c3;
+  --color-danger-1: #fff0e8;
+
+  --color-warning-6: #ff7d00;
+  --color-warning-5: #ff9a2e;
+  --color-warning-7: #d25f00;
+  --color-warning-3: #ffcf8b;
+  --color-warning-2: #ffe4ba;
+  --color-warning-1: #fff7e8;
+}
+
+html.dark {
+  --color-furina-blue-6: #5a56bf;
+  --color-furina-blue-5: #756fcc;
+  --color-furina-blue-7: #3737a2;
+  --color-furina-blue-4: #9189d9;
+  --color-furina-blue-3: #afa7e5;
+  --color-furina-blue-2: #cdc6f2;
+  --color-furina-blue-1: #ede8ff;
+
+  --color-success-6: #8ed051;
+  --color-success-5: #7ac43d;
+  --color-success-7: #aadc74;
+  --color-success-3: #408814;
+  --color-success-2: #296a07;
+  --color-success-1: #184d00;
+  --color-warning-6: #ff9626;
+  --color-warning-5: #ff8d1f;
+  --color-warning-7: #ffb357;
+  --color-warning-3: #a64b0a;
+  --color-warning-2: #793004;
+  --color-warning-1: #4d1b00;
+  --color-danger-6: #ed7d60;
+  --color-danger-5: #e96449;
+  --color-danger-7: #f29b81;
+  --color-danger-3: #9b2215;
+  --color-danger-2: #740d05;
+  --color-danger-1: #4d0300;
+  --color-border-4: #6b6b6b;
+  --color-border-3: #575757;
+  --color-border-2: #474749;
+  --color-border-1: #37373a;
+  --color-fill-5: #a3a3a5;
+  --color-fill-4: #828284;
+  --color-fill-3: #474749;
+  --color-fill-2: #414144;
+  --color-fill-1: #37373a;
+  --color-text-5: #ffffff;
+  --color-fill-base: #242424;
+  --color-text-4: #b8b8b8;
+  --color-text-3: #8c8c8c;
+  --color-text-2: #4d4d4d;
+  --color-text-1: #1c1c1e;
+}
+
 @font-face {
   src: url("https://fonts.blue-archive.io/WixMadeforText-VariableFont_wght.ttf")
     format("truetype");
@@ -121,36 +212,36 @@ body {
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
-// :root {
-//   --vp-c-default-1: var(--color-text-5); /* default text color */
-//   --vp-c-default-2: var(--color-fill-5); /* hover state */
-//   --vp-c-default-3: var(--color-fill-2); /* solid bg */
-//   --vp-c-default-soft: var(--color-fill-1); /* soft bg */
+:root {
+  //   --vp-c-default-1: var(--color-text-5); /* default text color */
+  //   --vp-c-default-2: var(--color-fill-5); /* hover state */
+  //   --vp-c-default-3: var(--color-fill-2); /* solid bg */
+  //   --vp-c-default-soft: var(--color-fill-1); /* soft bg */
 
-//   --vp-c-brand-1: var(--arona-blue-6); /* main brand color */
-//   --vp-c-brand-2: var(--arona-blue-5); /* hover state, link */
-//   --vp-c-brand-3: var(--arona-blue-6); /* solid bg */
-//   --vp-c-brand-soft: var(--arona-blue-1); /* soft bg */
+  --vp-c-brand-1: var(--color-furina-blue-6); /* main brand color */
+  --vp-c-brand-2: var(--color-furina-blue-5); /* hover state, link */
+  --vp-c-brand-3: var(--color-furina-blue-6); /* solid bg */
+  --vp-c-brand-soft: var(--color-furina-blue-1); /* soft bg */
 
-//   --vp-c-tip-1: var(--vp-c-brand-1);
-//   --vp-c-tip-2: var(--vp-c-brand-2);
-//   --vp-c-tip-3: var(--vp-c-brand-3);
-//   --vp-c-tip-soft: var(--vp-c-brand-soft);
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
 
-//   --vp-c-warning-1: var(--warning-6);
-//   --vp-c-warning-2: var(--warning-5);
-//   --vp-c-warning-3: var(--warning-6);
-//   --vp-c-warning-soft: var(--warning-1);
+  --vp-c-warning-1: var(--color-warning-6);
+  --vp-c-warning-2: var(--color-warning-5);
+  --vp-c-warning-3: var(--color-warning-6);
+  --vp-c-warning-soft: var(--color-warning-1);
 
-//   --vp-c-danger-1: var(--danger-6);
-//   --vp-c-danger-2: var(--danger-5);
-//   --vp-c-danger-3: var(--danger-6);
-//   --vp-c-danger-soft: var(--danger-1);
+  --vp-c-danger-1: var(--color-danger-6);
+  --vp-c-danger-2: var(--color-danger-5);
+  --vp-c-danger-3: var(--color-danger-6);
+  --vp-c-danger-soft: var(--color-danger-1);
 
-//   --vp-c-text-1: var(--color-text-5);
-//   --vp-c-text-2: var(--color-text-4);
-//   --vp-c-text-3: var(--color-text-3);
-// }
+  --vp-c-text-1: var(--color-text-5);
+  --vp-c-text-2: var(--color-text-4);
+  --vp-c-text-3: var(--color-text-3);
+}
 
 /**
  * Component: Button
