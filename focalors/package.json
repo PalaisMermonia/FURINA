@@ -46,7 +46,7 @@
     "cross-env": "^7.0.3",
     "esbuild": "^0.18.20",
     "esbuild-register": "npm:@shigma/esbuild-register@^1.1.1",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.2",
     "yakumo": "^0.3.13",
     "yakumo-esbuild": "^0.3.26",
     "yakumo-esbuild-yaml": "^0.3.1",

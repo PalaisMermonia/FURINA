@@ -7,9 +7,6 @@ export {}
 
 declare module "vue" {
   export interface GlobalComponents {
-    ASpace: typeof import("@arco-design/web-vue")["Space"];
-    ColorPalette: typeof import("./components/docs/ColorPalette.vue")["default"];
-    ColorPaletteGroup: typeof import("./components/docs/ColorPaletteGroup.vue")["default"];
     RouterLink: typeof import("vue-router")["RouterLink"];
     RouterView: typeof import("vue-router")["RouterView"];
   }
