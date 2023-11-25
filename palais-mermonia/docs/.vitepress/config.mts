@@ -16,22 +16,15 @@ export default defineConfig({
   title: "FURINA",
   base: "/FURINA/",
   description: "Solo infini de solitude",
-  lastUpdated: true,
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    search: {
-      provider: "local",
-    },
-    nav: [{ text: "Home", link: "/" }],
-
-    socialLinks: [
-      { icon: "github", link: "https://github.com/PalaisMermonia/FURINA" },
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "/FURINA/image/icon/FURINA_logo_rounded.svg",
+      },
     ],
-  },
-
-  transformHead: () => {
-    const head: HeadConfig[] = [];
-    head.push([
+    [
       "link",
       {
         rel: "prefetch",
@@ -39,8 +32,8 @@ export default defineConfig({
         as: "style",
         onload: "this.rel='stylesheet';this.onload=null;",
       },
-    ]);
-    head.push([
+    ],
+    [
       "link",
       {
         rel: "prefetch",
@@ -48,8 +41,22 @@ export default defineConfig({
         as: "style",
         onload: "this.rel='stylesheet';this.onload=null;",
       },
-    ]);
+    ],
+  ],
+  lastUpdated: true,
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: "local",
+    },
+    nav: [
+      { text: "Home", link: "/" },
+      { text: "使用", link: "/get-started/install" },
+      { text: "文档", link: "/dev/structure" },
+    ],
 
-    return head;
+    socialLinks: [
+      { icon: "github", link: "https://github.com/PalaisMermonia/FURINA" },
+    ],
   },
 });
