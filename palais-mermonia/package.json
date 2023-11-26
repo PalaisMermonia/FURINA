@@ -10,7 +10,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "vitepress": "~1.0.0-rc.27",
+    "vitepress": "~1.0.0-rc.31",
     "@arco-design/web-vue": "~2.53.3",
     "unplugin-auto-import": "^0.17.1",
     "unplugin-vue-components": "^0.25.2",
@@ -18,7 +18,7 @@
     "tailwindcss": "~3.3.5",
     "postcss": "~8.4.31",
     "autoprefixer": "~10.4.16",
-    "vue": "^3.3.8",
+    "vue": "^3.3.9",
     "color-string": "~1.9.1",
     "@types/color-string": "~1.5.4",
     "postcss-preset-env": "^9.2.0",
