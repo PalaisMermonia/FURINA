@@ -1,53 +1,57 @@
-port: 5140
-maxPort: 5149
-
 plugins:
+  server:w779om:
+    port: 5140
+    maxPort: 5149
+  proxy-agent:oijfcu: {}
   group:basic:
-    ~admin: {}
-    ~bind: {}
-    commands: {}
-    help: {}
-    ~inspect: {}
-    locales: {}
-    rate-limit: {}
-    telemetry: {}
+    ~admin:yo7sat: {}
+    ~bind:l0o3lt: {}
+    commands:57e5ru: {}
+    help:m69c2o: {}
+    ~inspect:t6bhkp: {}
+    locales:adonuh: {}
+    rate-limit:zh9e3r: {}
+    telemetry:rrk2db: {}
   group:console:
-    analytics: {}
-    ~auth: {}
-    config: {}
-    console:
+    analytics:i2488m: {}
+    ~auth:nh6gsu: {}
+    config:1yclgs: {}
+    console:1evxb3:
       open: true
-    dataview: {}
-    desktop:
+    dataview:i72bfi: {}
+    desktop:wfj9az:
       $if: env.KOISHI_AGENT?.includes('Desktop')
-    explorer: {}
-    logger: {}
-    insight: {}
-    market:
+    explorer:y5emrw: {}
+    logger:87vxcb: {}
+    insight:mmdloi: {}
+    market:635uw8:
       registry:
         endpoint: https://registry.npmmirror.com
       search:
         endpoint: https://registry.koishi.chat/index.json
-    sandbox: {}
-    status: {}
-    theme-vanilla: {}
+    sandbox:u9poc5: {}
+    status:dg3ejj: {}
+    theme-vanilla:yorsnx: {}
   group:storage:
-    database-sqlite: {}
-    ~database-mysql: {}
-    ~database-mongo: {}
-    assets-local: {}
+    database-sqlite:swy7ny:
+      path: data/koishi.db
+    ~database-mysql:vx4rhm:
+      database: koishi
+    ~database-mongo:j1brw5:
+      database: koishi
+    assets-local:2akqe8: {}
   group:adapter:
-    ~adapter-discord: {}
-    ~adapter-kook: {}
-    ~adapter-lark: {}
-    ~adapter-line: {}
-    ~adapter-matrix: {}
-    ~adapter-qq: {}
-    ~adapter-satori: {}
-    ~adapter-slack: {}
-    ~adapter-telegram: {}
-    ~server: {}
+    ~adapter-discord:vamf9v: {}
+    ~adapter-kook:incmsg: {}
+    ~adapter-lark:48t982: {}
+    ~adapter-line:sjl7bh: {}
+    ~adapter-matrix:k3o2oe: {}
+    ~adapter-qq:8mpzop: {}
+    ~adapter-satori:jvv11m: {}
+    ~adapter-slack:n8qaw0: {}
+    ~adapter-telegram:0yfkyu: {}
+    ~server:gdvtf1: {}
   group:develop:
     $if: env.NODE_ENV === 'development'
-    hmr:
-      root: "."
+    hmr:n3fiw6:
+      root: .

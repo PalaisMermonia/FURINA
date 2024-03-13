@@ -9,3 +9,12 @@
 一个还在写的基于 koishi 的 bot
 
 [文档](https://palaismermonia.github.io/FURINA/)
+
+# 开发
+
+```bash
+npm install -g @microsoft/rush
+rush update
+rush update-autoinstaller --name rush-prettier
+rush install
+```

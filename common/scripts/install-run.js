@@ -24,6 +24,8 @@
       ) => {
         __webpack_require__.r(__webpack_exports__);
         /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+          /* harmony export */ isVariableSetInNpmrcFile: () =>
+            /* binding */ isVariableSetInNpmrcFile,
           /* harmony export */ syncNpmrc: () => /* binding */ syncNpmrc,
           /* harmony export */
         });
@@ -42,30 +44,35 @@
         // IMPORTANT - do not use any non-built-in libraries in this file
 
         /**
-         * As a workaround, copyAndTrimNpmrcFile() copies the .npmrc file to the target folder, and also trims
+         * This function reads the content for given .npmrc file path, and also trims
          * unusable lines from the .npmrc file.
-         *
-         * Why are we trimming the .npmrc lines?  NPM allows environment variables to be specified in
-         * the .npmrc file to provide different authentication tokens for different registry.
-         * However, if the environment variable is undefined, it expands to an empty string, which
-         * produces a valid-looking mapping with an invalid URL that causes an error.  Instead,
-         * we'd prefer to skip that line and continue looking in other places such as the user's
-         * home directory.
          *
          * @returns
          * The text of the the .npmrc.
          */
-        function _copyAndTrimNpmrcFile(
-          logger,
-          sourceNpmrcPath,
-          targetNpmrcPath
-        ) {
-          logger.info(`Transforming ${sourceNpmrcPath}`); // Verbose
-          logger.info(`  --> "${targetNpmrcPath}"`);
-          let npmrcFileLines = fs__WEBPACK_IMPORTED_MODULE_0__
-            .readFileSync(sourceNpmrcPath)
-            .toString()
-            .split("\n");
+        // create a global _combinedNpmrc for cache purpose
+        const _combinedNpmrcMap = new Map();
+        function _trimNpmrcFile(options) {
+          const { sourceNpmrcPath, linesToPrepend, linesToAppend } = options;
+          const combinedNpmrcFromCache = _combinedNpmrcMap.get(sourceNpmrcPath);
+          if (combinedNpmrcFromCache !== undefined) {
+            return combinedNpmrcFromCache;
+          }
+          let npmrcFileLines = [];
+          if (linesToPrepend) {
+            npmrcFileLines.push(...linesToPrepend);
+          }
+          if (fs__WEBPACK_IMPORTED_MODULE_0__.existsSync(sourceNpmrcPath)) {
+            npmrcFileLines.push(
+              ...fs__WEBPACK_IMPORTED_MODULE_0__
+                .readFileSync(sourceNpmrcPath)
+                .toString()
+                .split("\n")
+            );
+          }
+          if (linesToAppend) {
+            npmrcFileLines.push(...linesToAppend);
+          }
           npmrcFileLines = npmrcFileLines.map((line) => (line || "").trim());
           const resultLines = [];
           // This finds environment variable tokens that look like "${VAR_NAME}"
@@ -73,8 +80,13 @@
           // Comment lines start with "#" or ";"
           const commentRegExp = /^\s*[#;]/;
           // Trim out lines that reference environment variables that aren't defined
-          for (const line of npmrcFileLines) {
+          for (let line of npmrcFileLines) {
             let lineShouldBeTrimmed = false;
+            //remove spaces before or after key and value
+            line = line
+              .split("=")
+              .map((lineToTrim) => lineToTrim.trim())
+              .join("=");
             // Ignore comment lines
             if (!commentRegExp.test(line)) {
               const environmentVariables = line.match(expansionRegExp);
@@ -103,30 +115,46 @@
             }
           }
           const combinedNpmrc = resultLines.join("\n");
+          //save the cache
+          _combinedNpmrcMap.set(sourceNpmrcPath, combinedNpmrc);
+          return combinedNpmrc;
+        }
+        function _copyAndTrimNpmrcFile(options) {
+          const {
+            logger,
+            sourceNpmrcPath,
+            targetNpmrcPath,
+            linesToPrepend,
+            linesToAppend,
+          } = options;
+          logger.info(`Transforming ${sourceNpmrcPath}`); // Verbose
+          logger.info(`  --> "${targetNpmrcPath}"`);
+          const combinedNpmrc = _trimNpmrcFile({
+            sourceNpmrcPath,
+            linesToPrepend,
+            linesToAppend,
+          });
           fs__WEBPACK_IMPORTED_MODULE_0__.writeFileSync(
             targetNpmrcPath,
             combinedNpmrc
           );
           return combinedNpmrc;
         }
-        /**
-         * syncNpmrc() copies the .npmrc file to the target folder, and also trims unusable lines from the .npmrc file.
-         * If the source .npmrc file not exist, then syncNpmrc() will delete an .npmrc that is found in the target folder.
-         *
-         * IMPORTANT: THIS CODE SHOULD BE KEPT UP TO DATE WITH Utilities._syncNpmrc()
-         *
-         * @returns
-         * The text of the the synced .npmrc, if one exists. If one does not exist, then undefined is returned.
-         */
-        function syncNpmrc(
-          sourceNpmrcFolder,
-          targetNpmrcFolder,
-          useNpmrcPublish,
-          logger = {
-            info: console.log,
-            error: console.error,
-          }
-        ) {
+        function syncNpmrc(options) {
+          const {
+            sourceNpmrcFolder,
+            targetNpmrcFolder,
+            useNpmrcPublish,
+            logger = {
+              // eslint-disable-next-line no-console
+              info: console.log,
+              // eslint-disable-next-line no-console
+              error: console.error,
+            },
+            createIfMissing = false,
+            linesToAppend,
+            linesToPrepend,
+          } = options;
           const sourceNpmrcPath = path__WEBPACK_IMPORTED_MODULE_1__.join(
             sourceNpmrcFolder,
             !useNpmrcPublish ? ".npmrc" : ".npmrc-publish"
@@ -136,12 +164,25 @@
             ".npmrc"
           );
           try {
-            if (fs__WEBPACK_IMPORTED_MODULE_0__.existsSync(sourceNpmrcPath)) {
-              return _copyAndTrimNpmrcFile(
-                logger,
+            if (
+              fs__WEBPACK_IMPORTED_MODULE_0__.existsSync(sourceNpmrcPath) ||
+              createIfMissing
+            ) {
+              // Ensure the target folder exists
+              if (
+                !fs__WEBPACK_IMPORTED_MODULE_0__.existsSync(targetNpmrcFolder)
+              ) {
+                fs__WEBPACK_IMPORTED_MODULE_0__.mkdirSync(targetNpmrcFolder, {
+                  recursive: true,
+                });
+              }
+              return _copyAndTrimNpmrcFile({
                 sourceNpmrcPath,
-                targetNpmrcPath
-              );
+                targetNpmrcPath,
+                logger,
+                linesToAppend,
+                linesToPrepend,
+              });
             } else if (
               fs__WEBPACK_IMPORTED_MODULE_0__.existsSync(targetNpmrcPath)
             ) {
@@ -152,6 +193,16 @@
           } catch (e) {
             throw new Error(`Error syncing .npmrc file: ${e}`);
           }
+        }
+        function isVariableSetInNpmrcFile(sourceNpmrcFolder, variableKey) {
+          const sourceNpmrcPath = `${sourceNpmrcFolder}/.npmrc`;
+          //if .npmrc file does not exist, return false directly
+          if (!fs__WEBPACK_IMPORTED_MODULE_0__.existsSync(sourceNpmrcPath)) {
+            return false;
+          }
+          const trimmedNpmrcFile = _trimNpmrcFile({ sourceNpmrcPath });
+          const variableKeyRegExp = new RegExp(`^${variableKey}=`, "m");
+          return trimmedNpmrcFile.match(variableKeyRegExp) !== null;
         }
         //# sourceMappingURL=npmrcUtilities.js.map
 
@@ -333,7 +384,8 @@
     /* harmony import */ var _utilities_npmrcUtilities__WEBPACK_IMPORTED_MODULE_4__ =
       __webpack_require__(/*! ../utilities/npmrcUtilities */ 679877);
     // Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
-    // See the @microsoft/rush package's LICENSE file for license information.
+    // See LICENSE in the project root for license information.
+    /* eslint-disable no-console */
 
     const RUSH_JSON_FILENAME = "rush.json";
     const RUSH_TEMP_FOLDER_ENV_VARIABLE_NAME = "RUSH_TEMP_FOLDER";
@@ -444,6 +496,23 @@
       }
     }
     /**
+     * Compare version strings according to semantic versioning.
+     * Returns a positive integer if "a" is a later version than "b",
+     * a negative integer if "b" is later than "a",
+     * and 0 otherwise.
+     */
+    function _compareVersionStrings(a, b) {
+      const aParts = a.split(/[.-]/);
+      const bParts = b.split(/[.-]/);
+      const numberOfParts = Math.max(aParts.length, bParts.length);
+      for (let i = 0; i < numberOfParts; i++) {
+        if (aParts[i] !== bParts[i]) {
+          return (Number(aParts[i]) || 0) - (Number(bParts[i]) || 0);
+        }
+      }
+      return 0;
+    }
+    /**
      * Resolve a package specifier to a static version
      */
     function _resolvePackageVersion(
@@ -468,22 +537,40 @@
             "rush"
           );
           (0, _utilities_npmrcUtilities__WEBPACK_IMPORTED_MODULE_4__.syncNpmrc)(
-            sourceNpmrcFolder,
-            rushTempFolder,
-            undefined,
-            logger
+            {
+              sourceNpmrcFolder,
+              targetNpmrcFolder: rushTempFolder,
+              logger,
+            }
           );
           const npmPath = getNpmPath();
           // This returns something that looks like:
-          //  @microsoft/rush@3.0.0 '3.0.0'
-          //  @microsoft/rush@3.0.1 '3.0.1'
-          //  ...
-          //  @microsoft/rush@3.0.20 '3.0.20'
-          //  <blank line>
+          // ```
+          // [
+          //   "3.0.0",
+          //   "3.0.1",
+          //   ...
+          //   "3.0.20"
+          // ]
+          // ```
+          //
+          // if multiple versions match the selector, or
+          //
+          // ```
+          // "3.0.0"
+          // ```
+          //
+          // if only a single version matches.
           const npmVersionSpawnResult =
             child_process__WEBPACK_IMPORTED_MODULE_0__.spawnSync(
               npmPath,
-              ["view", `${name}@${version}`, "version", "--no-update-notifier"],
+              [
+                "view",
+                `${name}@${version}`,
+                "version",
+                "--no-update-notifier",
+                "--json",
+              ],
               {
                 cwd: rushTempFolder,
                 stdio: [],
@@ -495,20 +582,25 @@
             );
           }
           const npmViewVersionOutput = npmVersionSpawnResult.stdout.toString();
-          const versionLines = npmViewVersionOutput
-            .split("\n")
-            .filter((line) => !!line);
-          const latestVersion = versionLines[versionLines.length - 1];
+          const parsedVersionOutput = JSON.parse(npmViewVersionOutput);
+          const versions = Array.isArray(parsedVersionOutput)
+            ? parsedVersionOutput
+            : [parsedVersionOutput];
+          let latestVersion = versions[0];
+          for (let i = 1; i < versions.length; i++) {
+            const latestVersionCandidate = versions[i];
+            if (
+              _compareVersionStrings(latestVersionCandidate, latestVersion) > 0
+            ) {
+              latestVersion = latestVersionCandidate;
+            }
+          }
           if (!latestVersion) {
             throw new Error(
               "No versions found for the specified version range."
             );
           }
-          const versionMatches = latestVersion.match(/^.+\s\'(.+)\'$/);
-          if (!versionMatches) {
-            throw new Error(`Invalid npm output ${latestVersion}`);
-          }
-          return versionMatches[1];
+          return latestVersion;
         } catch (e) {
           throw new Error(
             `Unable to resolve version ${version} of package ${name}: ${e}`
@@ -540,7 +632,7 @@
           (tempPath = path__WEBPACK_IMPORTED_MODULE_3__.dirname(basePath))
         ); // Exit the loop when we hit the disk root
         if (!_rushJsonFolder) {
-          throw new Error("Unable to find rush.json.");
+          throw new Error(`Unable to find ${RUSH_JSON_FILENAME}.`);
         }
       }
       return _rushJsonFolder;
@@ -748,12 +840,11 @@
           "config",
           "rush"
         );
-        (0, _utilities_npmrcUtilities__WEBPACK_IMPORTED_MODULE_4__.syncNpmrc)(
+        (0, _utilities_npmrcUtilities__WEBPACK_IMPORTED_MODULE_4__.syncNpmrc)({
           sourceNpmrcFolder,
-          packageInstallFolder,
-          undefined,
-          logger
-        );
+          targetNpmrcFolder: packageInstallFolder,
+          logger,
+        });
         _createPackageJson(packageInstallFolder, packageName, packageVersion);
         const command = lockFilePath ? "ci" : "install";
         _installPackage(
