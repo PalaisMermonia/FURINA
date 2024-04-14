@@ -13,8 +13,6 @@
 # 开发
 
 ```bash
-npm install -g @microsoft/rush
-rush update
-rush update-autoinstaller --name rush-prettier
-rush install
+npm install -g pnpm
+pnpm install
 ```
