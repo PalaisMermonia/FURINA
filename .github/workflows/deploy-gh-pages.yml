@@ -21,35 +21,35 @@ permissions:
 
 # Allow one concurrent deployment
 concurrency:
-  group: "pages"
+  group: "furina-docs"
   cancel-in-progress: true
 
 jobs:
   # Single deploy job since we're just deploying
   deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
-      url: https://PalaisMermonia.github.io/FURINA/
+      url: https://palaismermonia.github.io/FURINA/
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@main
       - name: Set up Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@main
         with:
-          node-version: 18
-      - uses: pnpm/action-setup@v2
+          node-version: 20
+      - uses: pnpm/action-setup@master
         with:
           version: latest
+          run_install: |
+            - recursive: true
 
-      - name: Verify Change Logs
-        run: node common/scripts/install-run-rush.js change --verify
-      - name: Rush Update
-        run: node common/scripts/install-run-rush.js update
-      - name: Rush Install
-        run: node common/scripts/install-run-rush.js install
-      - name: Rush build
-        run: node common/scripts/install-run-rush.js build --only palais-mermonia --verbose
+      - name: Build docs
+        run: pnpm palais-mermonia build
 
       - name: Setup Pages
         uses: actions/configure-pages@main

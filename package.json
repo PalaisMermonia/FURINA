@@ -1,0 +1,39 @@
+{
+  "name": "@furina/furina",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "focalors": "pnpm --filter focalors",
+    "furina": "pnpm --filter furina",
+    "palais-mermonia": "pnpm --filter palais-mermonia"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  },
+  "lint-staged": {
+    "**/*.{ts,js,vue}": [
+      "prettier --config .prettierrc.json --write",
+      "git add"
+    ],
+    "*.md": [
+      "prettier --config .prettierrc.json --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "typescript": "^5.4.5"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}

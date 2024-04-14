@@ -1,0 +1,33 @@
+{
+  "name": "palais-mermonia",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@arco-design/web-vue": "~2.54.6",
+    "@types/color-string": "~1.5.4",
+    "@vitejs/plugin-legacy": "~5.3.2",
+    "@vueuse/core": "^10.9.0",
+    "autoprefixer": "~10.4.18",
+    "color-string": "~1.9.1",
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0",
+    "postcss": "~8.4.35",
+    "postcss-plugin-px2rem": "^0.8.1",
+    "postcss-preset-env": "^9.5.0",
+    "search-insights": ">=1.0.0 <3.0.0-0",
+    "terser": "~5.29.1",
+    "typescript": "^5.4.2",
+    "unocss": "^0.59.2",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": ">=5.0.10 <6.0.0-0",
+    "vitepress": "~1.1.0",
+    "vitepress-sidebar": "^1.22.0",
+    "vue": "^3.4.21"
+  }
+}
