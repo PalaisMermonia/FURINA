@@ -1,9 +1,9 @@
 // https://vitepress.dev/guide/custom-theme
 import { Message } from "@arco-design/web-vue";
 import "@arco-design/web-vue/es/message/style/css.js";
-import Theme from "vitepress/theme-without-fonts";
+// import Theme from "vitepress/theme-without-fonts";
 import ApperanceTransitionLayout from "./ApperanceTransitionLayout.vue";
-// import Theme from "vitepress/theme";
+import Theme from "vitepress/theme";
 import "./style.scss";
 import "uno.css";
 
