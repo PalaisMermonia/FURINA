@@ -8,7 +8,7 @@ on:
       - master
       - main
     paths:
-      - "palais-mermonia/docs/**"
+      - "packages/palais-mermonia/**"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -57,7 +57,7 @@ jobs:
         uses: actions/upload-pages-artifact@main
         with:
           # Upload dist repository
-          path: "./palais-mermonia/docs/.vitepress/dist"
+          path: "./packages/palais-mermonia/docs/.vitepress/dist"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
