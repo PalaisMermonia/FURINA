@@ -37,30 +37,26 @@ export default defineConfig({
         include: [/\.vue$/, /\.md$/],
         resolvers: [ArcoResolver({ sideEffect: true })],
       }),
-      legacy({
-        targets: [
-          "Android >= 39",
-          "Chrome >= 50",
-          "Safari >= 10.1",
-          "iOS >= 10.3",
-          "> 1%",
-        ],
-      }),
+      // legacy({
+      //   targets: [
+      //     "Android >= 39",
+      //     "Chrome >= 50",
+      //     "Safari >= 10.1",
+      //     "iOS >= 10.3",
+      //     "> 1%",
+      //   ],
+      // }),
       UnoCSS({
         presets: [
-          // @ts-ignore
           presetUno(),
-          // @ts-ignore
           presetIcons({
             extraProperties: {
               display: "inline-block",
               "vertical-align": "middle",
             },
           }),
-          // @ts-ignore
           presetAttributify(),
         ],
-        // @ts-ignore
         transformers: [transformerDirectives()],
       }),
     ],
@@ -76,6 +72,16 @@ export default defineConfig({
         ],
       },
     },
+    build: {
+      minify: "terser",
+      terserOptions: {
+        compress: {
+          keep_infinity: true,
+          drop_console: true,
+          drop_debugger: true,
+        },
+      },
+    }
   },
   title: "FURINA",
   base: "/FURINA/",
