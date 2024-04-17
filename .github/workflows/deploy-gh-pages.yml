@@ -56,8 +56,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@main
         with:
-          # Upload dist repository
           path: "./packages/palais-mermonia/docs/.vitepress/dist"
+          retention-days: 1
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
