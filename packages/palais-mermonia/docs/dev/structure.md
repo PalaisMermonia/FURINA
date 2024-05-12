@@ -14,12 +14,12 @@ FURINA 分为三个主要部分：前端 Furina、后端 Focalors 和数据库 O
 
 ## 后端 Focalors
 
-后端使用 koishi 作为基础框架方便后续扩展，使用 TypeScript 编写。
+后端使用 [Koishi.js](https://koishi.chat/zh-CN/) 作为基础框架方便后续扩展，使用 TypeScript 编写。
 
 你可以在 [这里](./focalors) 查看后端的具体架构。
 
 ## 插件库 Oratrice
 
-## 数据库 Maison Gestion
+## 数据库 Elysium
 
 数据库使用 Redis。

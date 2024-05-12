@@ -6,7 +6,7 @@ import AutoImport from "unplugin-auto-import/vite";
 import { ArcoResolver } from "unplugin-vue-components/resolvers";
 import Components from "unplugin-vue-components/vite";
 import path from "path";
-import legacy from "@vitejs/plugin-legacy";
+// import legacy from "@vitejs/plugin-legacy";
 import UnoCSS from "unocss/vite";
 import {
   presetAttributify,
@@ -51,7 +51,7 @@ export default defineConfig({
       }),
       Components({
         dirs: ["components"],
-        include: [/\.vue$/, /\.md$/],
+        include: [/\.vue$/, /\.md$/, /\.ts$/],
         resolvers: [ArcoResolver({ sideEffect: true })],
       }),
       // legacy({
