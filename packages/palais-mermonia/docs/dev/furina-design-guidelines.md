@@ -399,13 +399,13 @@ const dangerGroup = {
 字体是体系化界面中最基本的构成之一。
 用户通过文本来理解内容和完成工作，科学的字体系统能提升用户的阅读体验及工作效率。
 
-FURINA 的视觉设计中对中文和英文字体进行了分别处理。中文段落使用 MiSans Regular，标题使用 MiSans Semibold。英文段落使用 Wix Madefor Text Regular，标题使用 Wix Madefor Display SemiBold。所有字体均为免费商用字体。
+FURINA 的视觉设计中对中文和英文字体进行了分别处理。中文段落使用 HarmonyOS Sans SC Regular，标题使用 HarmonyOS Sans SC Bold。英文段落使用 Wix Madefor Text Regular，标题使用 Wix Madefor Display SemiBold。所有字体均为免费商用字体。
 
 你可以参考下面的示例来了解 FURINA 的字体规范。
 
 ### 中文段落 / CJK Paragraph
 
-中文段落使用的字体为 MiSans，字重为 Regular。相较于 OPPOSans，MiSans 的字形更加传统，留下了更多出脚；但是 OPPOSans 的字重选择过少，在 Regular 和 Bold 之中没有合适的过渡字重，因此本次设计使用了 MiSans。
+中文段落使用的字体为 HarmonyOS Sans SC，字重为 Regular。相较于 OPPOSans，HarmonyOS Sans SC 的字形更加传统，留下了更多出脚；但是 OPPOSans Bold 作为标题使用时太粗，在 Regular 和 Bold 之中没有合适的过渡字重。因此本次设计使用了略细一些的 HarmonyOS Sans SC。
 
 <table class="w-full">
 <tr>
@@ -447,7 +447,7 @@ FURINA 的视觉设计中对中文和英文字体进行了分别处理。中文�
 
 ### 中文标题 / CJK Title
 
-中文标题使用的字体为 MiSans，字重为 SemiBold。
+中文标题使用的字体为 HarmonyOS Sans SC，字重为 Bold。
 
 <table class="w-full">
 <tr>
