@@ -18,8 +18,8 @@ FURINA 分为三个主要部分：前端 Furina、后端 Focalors 和数据库 O
 
 你可以在 [这里](./focalors) 查看后端的具体架构。
 
-## 数据库 Oratrice
+## 插件库 Oratrice
+
+## 数据库 Maison Gestion
 
 数据库使用 Redis。
-
-你可以在 [这里](./oratrice) 查看数据库的具体架构。
