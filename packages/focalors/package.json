@@ -1,7 +1,7 @@
 {
   "name": "focalors",
   "version": "0.0.0",
-  "packageManager": "yarn@4.0.1",
+  "packageManager": "yarn@4.2.2",
   "private": true,
   "files": [
     ".env",
@@ -44,7 +44,7 @@
     "@koishijs/scripts": "^4.5.2",
     "@types/node": "^20.11.26",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.20.1",
+    "esbuild": "^0.21.0",
     "esbuild-register": "npm:@shigma/esbuild-register@^1.1.1",
     "typescript": "^5.4.2",
     "yakumo": "^0.3.13",
@@ -82,7 +82,7 @@
     "@koishijs/plugin-locales": "^2.5.3",
     "@koishijs/plugin-logger": "^2.6.7",
     "@koishijs/plugin-market": "^2.11.1",
-    "@koishijs/plugin-proxy-agent": "^0.2.0",
+    "@koishijs/plugin-proxy-agent": "^0.3.0",
     "@koishijs/plugin-sandbox": "^3.2.4",
     "@koishijs/plugin-server": "^3.1.8",
     "@koishijs/plugin-server-satori": "^2.4.2",
@@ -96,7 +96,7 @@
     "koishi-plugin-desktop": "^1.0.0",
     "koishi-plugin-puppeteer": "^3.8.2",
     "koishi-plugin-rate-limit": "^2.0.2",
-    "koishi-plugin-telemetry": "^0.0.2",
+    "koishi-plugin-telemetry": "^0.2.0",
     "koishi-plugin-theme-vanilla": "^1.0.6",
     "minato": ">=3.0.0 <4.0.0-0",
     "undios": "^0.3.0"
