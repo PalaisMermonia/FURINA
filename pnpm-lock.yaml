@@ -111,7 +111,7 @@ importers:
         specifier: ^7.4.10
         version: 7.4.10(@koishijs/plugin-console@5.28.4(@koishijs/client@5.28.4(@types/node@20.12.12)(postcss@8.4.38)(rollup@4.18.0)(terser@5.31.0)(typescript@5.4.5))(koishi@4.17.7(@cordisjs/plugin-http@0.5.1(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.17.7(@cordisjs/plugin-http@0.5.1(cordis@3.13.6))(cordis@3.13.6))
       '@satorijs/satori':
-        specifier: '>=3.6.3 <4.0.0-0'
+        specifier: '>=3.6.3 <4.1.1'
         version: 3.6.6
       cordis:
         specifier: '>=3.13.0 <4.0.0-0'
@@ -2742,9 +2742,6 @@ packages:
     peerDependencies:
       cordis: ^3.15.3
 
-  '@satorijs/element@3.1.6':
-    resolution: {integrity: sha512-yzrOoRQr7lSMn0Mc2231BmzJ7FAWDUt6VyzqXPT1/vftYDm6MyVjsBBIkz3nzmMpS5jXUJlrZmgcZrUaV7nT4A==}
-
   '@satorijs/element@3.1.7':
     resolution: {integrity: sha512-ZP8tRVuOGNRlIBXKn40przG4FAouTaMt8O3UZ9j0eueS4y7IWxCL08W6BBsPq+0sExeYtGYyBRNt4L9gBx0Q4A==}
 
@@ -2752,9 +2749,6 @@ packages:
     resolution: {integrity: sha512-xx0Fi9aTWqJONoXNebD5HCBhU3qAyvV7eyg3bNAaitZJ5oMtMrghGy9KYSbEHv24h/S8sy8cZPpn8DaEUt+Atg==}
     peerDependencies:
       '@satorijs/core': ^4.1.0
-
-  '@satorijs/protocol@1.3.0':
-    resolution: {integrity: sha512-H7GEy/9l/cOhV/V6LfLXKrdcV1W/hekpZOzaLtulTIS37vRc5DqTSed3K3zv+1442svC6aEUqAWWA5BVvDm8vQ==}
 
   '@satorijs/protocol@1.4.0':
     resolution: {integrity: sha512-N3AJlaNjVxNuqcSiEYBm8Wpt4RdGycoY/v2RSIbJOkWZX7xUPJx8BPz4/nALssVAuqnLPa0orjXpybGB0pqD0A==}
@@ -10828,12 +10822,12 @@ snapshots:
 
   '@satorijs/core@3.6.6':
     dependencies:
-      '@satorijs/element': 3.1.6
-      '@satorijs/protocol': 1.3.0
-      cordis: 3.13.6
+      '@satorijs/element': 3.1.7
+      '@satorijs/protocol': 1.4.0
+      cordis: 3.15.3
       cosmokit: 1.6.2
-      undios: 0.3.3(cordis@3.13.6)
-      undios-file: 0.1.3(cordis@3.13.6)(undios@0.3.3(cordis@3.13.6))
+      undios: 0.3.3(cordis@3.15.3)
+      undios-file: 0.1.3(cordis@3.15.3)(undios@0.3.3(cordis@3.15.3))
       ws: 8.17.0
     transitivePeerDependencies:
       - bufferutil
@@ -10861,10 +10855,6 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@satorijs/element@3.1.6':
-    dependencies:
-      cosmokit: 1.6.2
-
   '@satorijs/element@3.1.7':
     dependencies:
       cosmokit: 1.6.2
@@ -10872,11 +10862,6 @@ snapshots:
   '@satorijs/plugin-server@2.6.3(@satorijs/core@4.1.0(cordis@3.13.6))':
     dependencies:
       '@satorijs/core': 4.1.0(cordis@3.13.6)
-
-  '@satorijs/protocol@1.3.0':
-    dependencies:
-      '@satorijs/element': 3.1.6
-      cosmokit: 1.6.2
 
   '@satorijs/protocol@1.4.0':
     dependencies:
@@ -16440,17 +16425,26 @@ snapshots:
 
   undici@6.13.0: {}
 
-  undios-file@0.1.3(cordis@3.13.6)(undios@0.3.3(cordis@3.13.6)):
+  undios-file@0.1.3(cordis@3.15.3)(undios@0.3.3(cordis@3.15.3)):
     dependencies:
-      cordis: 3.13.6
+      cordis: 3.15.3
       cosmokit: 1.6.2
       file-type: 16.5.4
       mime-db: 1.52.0
-      undios: 0.3.3(cordis@3.13.6)
+      undios: 0.3.3(cordis@3.15.3)
 
   undios@0.3.3(cordis@3.13.6):
     dependencies:
       cordis: 3.13.6
+      cosmokit: 1.6.2
+      ws: 8.16.0
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  undios@0.3.3(cordis@3.15.3):
+    dependencies:
+      cordis: 3.15.3
       cosmokit: 1.6.2
       ws: 8.16.0
     transitivePeerDependencies:

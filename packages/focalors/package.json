@@ -87,7 +87,7 @@
     "@koishijs/plugin-server": "^3.1.8",
     "@koishijs/plugin-server-satori": "^2.4.2",
     "@koishijs/plugin-status": "^7.4.10",
-    "@satorijs/satori": ">=3.6.3 <4.0.0-0",
+    "@satorijs/satori": ">=3.6.3 <4.1.1",
     "cordis": ">=3.13.0 <4.0.0-0",
     "enka-network-api": "^4.2.0",
     "koishi": "^4.17.2",
