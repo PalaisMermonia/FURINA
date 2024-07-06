@@ -44,7 +44,7 @@
     "@koishijs/scripts": "^4.5.2",
     "@types/node": "^20.11.26",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.21.0",
+    "esbuild": "^0.23.0",
     "esbuild-register": "npm:@shigma/esbuild-register@^1.1.1",
     "typescript": "^5.4.2",
     "yakumo": "^0.3.13",
