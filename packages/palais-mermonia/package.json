@@ -9,7 +9,7 @@
     "preview": "vitepress preview docs"
   },
   "dependencies": {
-    "@arco-design/web-vue": "~2.55.0",
+    "@arco-design/web-vue": "~2.56.0",
     "@types/color-string": "~1.5.4",
     "@vitejs/plugin-legacy": "~5.4.0",
     "@vueuse/core": "^10.9.0",
