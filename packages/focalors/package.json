@@ -1,7 +1,7 @@
 {
   "name": "focalors",
   "version": "0.0.0",
-  "packageManager": "yarn@4.4.1",
+  "packageManager": "yarn@4.5.0",
   "private": true,
   "files": [
     ".env",
