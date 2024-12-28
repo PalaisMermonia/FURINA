@@ -52,55 +52,55 @@ importers:
         version: 4.5.8(@satorijs/core@4.3.4(cordis@3.13.6))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-admin':
         specifier: ^2.0.0-alpha.4
-        version: 2.0.0-beta.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.0.0-beta.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-analytics':
         specifier: ^2.0.6
-        version: 2.0.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.0.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-auth':
         specifier: ^4.1.6
-        version: 4.1.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 4.1.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-bind':
         specifier: ^1.5.1
         version: 1.5.1(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-commands':
         specifier: ^3.5.1
-        version: 3.5.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 3.5.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-config':
         specifier: ^2.8.4
-        version: 2.8.6(@koishijs/loader@4.6.4(@koishijs/core@4.18.4))(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.8.6(@koishijs/loader@4.6.4(@koishijs/core@4.18.4))(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-console':
         specifier: ^5.28.0
-        version: 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-database-sqlite':
         specifier: ^4.0.0
         version: 4.6.0(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))(minato@3.1.1)
       '@koishijs/plugin-explorer':
         specifier: ^1.5.1
-        version: 1.5.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 1.5.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-help':
         specifier: ^2.4.3
         version: 2.4.4(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-insight':
         specifier: ^3.5.1
-        version: 3.5.2(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 3.5.2(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-inspect':
         specifier: ^1.1.5
         version: 1.1.7(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-locales':
         specifier: ^2.5.3
-        version: 2.5.3(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.5.3(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-logger':
         specifier: ^2.6.7
-        version: 2.6.9(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.6.9(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-market':
         specifier: ^2.11.1
-        version: 2.11.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.11.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-proxy-agent':
         specifier: ^0.3.0
         version: 0.3.3(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-sandbox':
         specifier: ^3.2.4
-        version: 3.4.1(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 3.4.1(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-server':
         specifier: ^3.1.8
         version: 3.2.4(cordis@3.13.6)(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
@@ -109,7 +109,7 @@ importers:
         version: 2.8.5(@satorijs/core@4.3.4(cordis@3.13.6))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-status':
         specifier: ^7.4.10
-        version: 7.4.10(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 7.4.10(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@satorijs/satori':
         specifier: '>=3.6.3 <4.1.3'
         version: 3.6.6
@@ -127,10 +127,10 @@ importers:
         version: 3.3.2(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi-plugin-dataview:
         specifier: ^2.6.6
-        version: 2.7.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.7.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi-plugin-desktop:
         specifier: ^1.0.0
-        version: 1.0.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 1.0.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi-plugin-puppeteer:
         specifier: ^3.8.2
         version: 3.9.0(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
@@ -142,7 +142,7 @@ importers:
         version: 0.2.3(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi-plugin-theme-vanilla:
         specifier: ^1.0.6
-        version: 1.1.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 1.1.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       minato:
         specifier: '>=3.0.0 <4.0.0-0'
         version: 3.1.1
@@ -152,16 +152,16 @@ importers:
     devDependencies:
       '@koishijs/client':
         specifier: ^5.28.0
-        version: 5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2)
+        version: 5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2)
       '@koishijs/plugin-hmr':
         specifier: ^1.2.8
         version: 1.2.9(@koishijs/loader@4.6.4(@koishijs/core@4.18.4))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/scripts':
         specifier: ^4.5.2
-        version: 4.6.1(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))
+        version: 4.6.1(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))
       '@types/node':
-        specifier: ^20.11.26
-        version: 20.17.10
+        specifier: ^22.0.0
+        version: 22.10.2
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -2987,9 +2987,6 @@ packages:
 
   '@types/mime@1.3.5':
     resolution: {integrity: sha512-/pyBZWSLD2n0dcHE3hq8s8ZvcETHtEuF+3E7XVt0Ig2nvsVQXdghHVcEkIWjy9A0wKfTn97a/PSDYohKIlnP/w==}
-
-  '@types/node@20.17.10':
-    resolution: {integrity: sha512-/jrvh5h6NXhEauFFexRin69nA0uHJ5gwk4iDivp/DeoEua3uwCUto6PC86IpRITBOs4+6i2I56K5x5b6WYGXHA==}
 
   '@types/node@22.10.2':
     resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
@@ -7645,9 +7642,6 @@ packages:
   unctx@2.4.1:
     resolution: {integrity: sha512-AbaYw0Nm4mK4qjhns67C+kgxR2YWiwlDBPzxrN8h8C6VtAdCgditAY5Dezu3IJy4XVqAnbrXt9oQJvsn3fyozg==}
 
-  undici-types@6.19.8:
-    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
-
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
@@ -10101,12 +10095,12 @@ snapshots:
     dependencies:
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  '@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2)':
+  '@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2)':
     dependencies:
       '@koishijs/components': 1.5.15(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.2)))(element-plus@2.7.7(vue@3.5.13(typescript@5.7.2)))(vue@3.5.13(typescript@5.7.2))
-      '@maikolib/vite-plugin-yaml': 1.1.0(rollup@4.29.1)(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))
+      '@maikolib/vite-plugin-yaml': 1.1.0(rollup@4.29.1)(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))
       '@satorijs/protocol': 1.4.2
-      '@vitejs/plugin-vue': 5.2.1(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@vitejs/plugin-vue': 5.2.1(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
       '@vueuse/core': 11.3.0(vue@3.5.13(typescript@5.7.2))
       cac: 6.7.14
       cordis: 3.18.1
@@ -10115,8 +10109,8 @@ snapshots:
       marked-vue: 1.3.0(vue@3.5.13(typescript@5.7.2))
       ns-require: 1.1.4
       sass: 1.83.0
-      unocss: 0.65.1(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
-      vite: 5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0)
+      unocss: 0.65.1(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      vite: 5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0)
       vue: 3.5.13(typescript@5.7.2)
       vue-i18n: 9.14.2(vue@3.5.13(typescript@5.7.2))
       vue-router: 4.5.0(vue@3.5.13(typescript@5.7.2))
@@ -10260,45 +10254,45 @@ snapshots:
     transitivePeerDependencies:
       - '@satorijs/core'
 
-  '@koishijs/plugin-admin@2.0.0-beta.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-admin@2.0.0-beta.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
       throttle-debounce: 3.0.1
     optionalDependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
 
-  '@koishijs/plugin-analytics@2.0.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-analytics@2.0.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.28.3(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  '@koishijs/plugin-auth@4.1.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-auth@4.1.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.28.3(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   '@koishijs/plugin-bind@1.5.1(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  '@koishijs/plugin-commands@3.5.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-commands@3.5.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.28.4(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
     optionalDependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
 
-  '@koishijs/plugin-config@2.8.6(@koishijs/loader@4.6.4(@koishijs/core@4.18.4))(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-config@2.8.6(@koishijs/loader@4.6.4(@koishijs/core@4.18.4))(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.30.0(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/loader': 4.6.4(@koishijs/core@4.18.4)
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/registry': 7.0.3
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  '@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.30.2(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
@@ -10306,7 +10300,7 @@ snapshots:
       uuid: 8.3.2
       ws: 8.18.0
     optionalDependencies:
-      '@koishijs/client': 5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2)
+      '@koishijs/client': 5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -10318,10 +10312,10 @@ snapshots:
     transitivePeerDependencies:
       - minato
 
-  '@koishijs/plugin-explorer@1.5.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-explorer@1.5.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.29.2(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       anymatch: 3.1.3
       chardet: 2.0.0
       chokidar: 3.6.0
@@ -10349,32 +10343,32 @@ snapshots:
       - cordis
       - utf-8-validate
 
-  '@koishijs/plugin-insight@3.5.2(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-insight@3.5.2(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.29.2(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   '@koishijs/plugin-inspect@1.1.7(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  '@koishijs/plugin-locales@2.5.3(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-locales@2.5.3(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.28.3(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       js-yaml: 4.1.0
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
     optionalDependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
 
-  '@koishijs/plugin-logger@2.6.9(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-logger@2.6.9(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.30.2(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
     optionalDependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
 
-  '@koishijs/plugin-market@2.11.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-market@2.11.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.30.2(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/registry': 7.0.3
@@ -10386,7 +10380,7 @@ snapshots:
       semver: 7.6.3
       which-pm-runs: 1.1.0
     optionalDependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
 
   '@koishijs/plugin-proxy-agent@0.3.3(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
@@ -10397,10 +10391,10 @@ snapshots:
       - cordis
       - supports-color
 
-  '@koishijs/plugin-sandbox@3.4.1(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-sandbox@3.4.1(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.29.3(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   '@koishijs/plugin-server-satori@2.8.5(@satorijs/core@4.3.4(cordis@3.13.6))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
@@ -10420,10 +10414,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@koishijs/plugin-status@7.4.10(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-status@7.4.10(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.28.3(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       envinfo: 7.12.0
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
       which-pm-runs: 1.1.0
@@ -10434,9 +10428,9 @@ snapshots:
       p-map: 4.0.0
       semver: 7.6.3
 
-  '@koishijs/scripts@4.6.1(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))':
+  '@koishijs/scripts@4.6.1(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))':
     dependencies:
-      '@koishijs/client': 5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2)
+      '@koishijs/client': 5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2)
       cac: 6.7.14
       fs-extra: 10.1.0
       globby: 11.1.0
@@ -10458,12 +10452,12 @@ snapshots:
 
   '@kwsites/promise-deferred@1.1.1': {}
 
-  '@maikolib/vite-plugin-yaml@1.1.0(rollup@4.29.1)(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))':
+  '@maikolib/vite-plugin-yaml@1.1.0(rollup@4.29.1)(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.29.1)
       js-yaml: 4.1.0
       tosource: 2.0.0-alpha.3
-      vite: 5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0)
+      vite: 5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0)
     transitivePeerDependencies:
       - rollup
 
@@ -11342,23 +11336,23 @@ snapshots:
 
   '@types/accepts@1.3.7':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/body-parser@1.19.5':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/co-body@6.1.3':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
       '@types/qs': 6.9.16
 
   '@types/color-string@1.5.5': {}
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/content-disposition@0.5.8': {}
 
@@ -11367,7 +11361,7 @@ snapshots:
       '@types/connect': 3.4.38
       '@types/express': 5.0.0
       '@types/keygrip': 1.0.6
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -11388,7 +11382,7 @@ snapshots:
 
   '@types/express-serve-static-core@5.0.1':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
       '@types/qs': 6.9.16
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -11402,7 +11396,7 @@ snapshots:
 
   '@types/formidable@2.0.6':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/hast@3.0.4':
     dependencies:
@@ -11422,7 +11416,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/koa-compose@3.2.8':
     dependencies:
@@ -11437,7 +11431,7 @@ snapshots:
       '@types/http-errors': 2.0.4
       '@types/keygrip': 1.0.6
       '@types/koa-compose': 3.2.8
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/koa__router@12.0.4':
     dependencies:
@@ -11468,10 +11462,6 @@ snapshots:
 
   '@types/mime@1.3.5': {}
 
-  '@types/node@20.17.10':
-    dependencies:
-      undici-types: 6.19.8
-
   '@types/node@22.10.2':
     dependencies:
       undici-types: 6.20.0
@@ -11488,17 +11478,17 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/send@0.17.4':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
       '@types/send': 0.17.4
 
   '@types/unist@2.0.11': {}
@@ -11511,11 +11501,11 @@ snapshots:
 
   '@types/ws@8.5.12':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
     optional: true
 
   '@typescript-eslint/eslint-plugin@8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)':
@@ -11631,13 +11621,13 @@ snapshots:
       unhead: 1.11.14
       vue: 3.5.13(typescript@5.7.2)
 
-  '@unocss/astro@0.65.1(rollup@4.29.1)(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
+  '@unocss/astro@0.65.1(rollup@4.29.1)(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
     dependencies:
       '@unocss/core': 0.65.1
       '@unocss/reset': 0.65.1
-      '@unocss/vite': 0.65.1(rollup@4.29.1)(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/vite': 0.65.1(rollup@4.29.1)(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
     optionalDependencies:
-      vite: 5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0)
+      vite: 5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -11938,7 +11928,7 @@ snapshots:
     dependencies:
       '@unocss/core': 0.65.3
 
-  '@unocss/vite@0.65.1(rollup@4.29.1)(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
+  '@unocss/vite@0.65.1(rollup@4.29.1)(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@rollup/pluginutils': 5.1.3(rollup@4.29.1)
@@ -11948,7 +11938,7 @@ snapshots:
       chokidar: 3.6.0
       magic-string: 0.30.17
       tinyglobby: 0.2.10
-      vite: 5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0)
+      vite: 5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -12085,9 +12075,9 @@ snapshots:
       vite: 5.4.10(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0)
       vue: 3.5.13(typescript@5.7.2)
 
-  '@vitejs/plugin-vue@5.2.1(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
+  '@vitejs/plugin-vue@5.2.1(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
     dependencies:
-      vite: 5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0)
+      vite: 5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0)
       vue: 3.5.13(typescript@5.7.2)
 
   '@vitejs/plugin-vue@5.2.1(vite@6.0.6(@types/node@22.10.2)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.6.1))(vue@3.5.13(typescript@5.7.2))':
@@ -14791,15 +14781,15 @@ snapshots:
       file-type: 16.5.4
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  koishi-plugin-dataview@2.7.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
+  koishi-plugin-dataview@2.7.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
     dependencies:
       '@koishijs/console': 5.29.4(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  koishi-plugin-desktop@1.0.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
+  koishi-plugin-desktop@1.0.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
     dependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   koishi-plugin-puppeteer@3.9.0(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
@@ -14821,9 +14811,9 @@ snapshots:
     dependencies:
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  koishi-plugin-theme-vanilla@1.1.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
+  koishi-plugin-theme-vanilla@1.1.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
     dependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.10)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@22.10.2)(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   koishi@4.18.4(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6):
@@ -17070,8 +17060,6 @@ snapshots:
       magic-string: 0.30.17
       unplugin: 2.1.0
 
-  undici-types@6.19.8: {}
-
   undici-types@6.20.0: {}
 
   undici@6.19.2: {}
@@ -17169,9 +17157,9 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unocss@0.65.1(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2)):
+  unocss@0.65.1(@unocss/webpack@0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.29.1)(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2)):
     dependencies:
-      '@unocss/astro': 0.65.1(rollup@4.29.1)(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/astro': 0.65.1(rollup@4.29.1)(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
       '@unocss/cli': 0.65.1(rollup@4.29.1)
       '@unocss/core': 0.65.1
       '@unocss/postcss': 0.65.1(postcss@8.4.49)
@@ -17187,10 +17175,10 @@ snapshots:
       '@unocss/transformer-compile-class': 0.65.1
       '@unocss/transformer-directives': 0.65.1
       '@unocss/transformer-variant-group': 0.65.1
-      '@unocss/vite': 0.65.1(rollup@4.29.1)(vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/vite': 0.65.1(rollup@4.29.1)(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
     optionalDependencies:
       '@unocss/webpack': 0.65.1(rollup@4.29.1)(webpack@5.91.0(esbuild@0.24.2))
-      vite: 5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0)
+      vite: 5.4.11(@types/node@22.10.2)(sass@1.83.0)(terser@5.37.0)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -17520,17 +17508,6 @@ snapshots:
       rollup: 4.24.3
     optionalDependencies:
       '@types/node': 22.10.2
-      fsevents: 2.3.3
-      sass: 1.83.0
-      terser: 5.37.0
-
-  vite@5.4.11(@types/node@20.17.10)(sass@1.83.0)(terser@5.37.0):
-    dependencies:
-      esbuild: 0.21.5
-      postcss: 8.4.49
-      rollup: 4.28.1
-    optionalDependencies:
-      '@types/node': 20.17.10
       fsevents: 2.3.3
       sass: 1.83.0
       terser: 5.37.0
