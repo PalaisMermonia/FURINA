@@ -19,7 +19,7 @@ importers:
         version: 15.3.0
       typescript:
         specifier: ^5.4.5
-        version: 5.7.2
+        version: 5.7.3
 
   packages/focalors:
     dependencies:
@@ -52,55 +52,55 @@ importers:
         version: 4.5.8(@satorijs/core@4.5.0(cordis@3.13.6))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-admin':
         specifier: ^2.0.0-alpha.4
-        version: 2.0.0-beta.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.0.0-beta.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-analytics':
         specifier: ^2.0.6
-        version: 2.0.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.0.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-auth':
         specifier: ^4.1.6
-        version: 4.1.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 4.1.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-bind':
         specifier: ^1.5.1
         version: 1.5.1(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-commands':
         specifier: ^3.5.1
-        version: 3.5.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 3.5.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-config':
         specifier: ^2.8.4
-        version: 2.8.6(@koishijs/loader@4.6.6(@koishijs/core@4.18.6))(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.8.6(@koishijs/loader@4.6.6(@koishijs/core@4.18.6))(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-console':
         specifier: ^5.28.0
-        version: 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-database-sqlite':
         specifier: ^4.0.0
         version: 4.6.0(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))(minato@3.1.1)
       '@koishijs/plugin-explorer':
         specifier: ^1.5.1
-        version: 1.5.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 1.5.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-help':
         specifier: ^2.4.3
         version: 2.4.4(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-insight':
         specifier: ^3.5.1
-        version: 3.5.2(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 3.5.2(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-inspect':
         specifier: ^1.1.5
         version: 1.1.7(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-locales':
         specifier: ^2.5.3
-        version: 2.5.3(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.5.3(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-logger':
         specifier: ^2.6.7
-        version: 2.6.9(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.6.9(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-market':
         specifier: ^2.11.1
-        version: 2.11.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.11.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-proxy-agent':
         specifier: ^0.3.0
         version: 0.3.3(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-sandbox':
         specifier: ^3.2.4
-        version: 3.4.1(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 3.4.1(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-server':
         specifier: ^3.1.8
         version: 3.2.4(cordis@3.13.6)(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
@@ -109,7 +109,7 @@ importers:
         version: 2.9.0(@satorijs/core@4.5.0(cordis@3.13.6))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/plugin-status':
         specifier: ^7.4.10
-        version: 7.4.10(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 7.4.10(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@satorijs/satori':
         specifier: '>=3.6.3 <4.1.3'
         version: 3.6.6
@@ -127,10 +127,10 @@ importers:
         version: 3.3.2(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi-plugin-dataview:
         specifier: ^2.6.6
-        version: 2.7.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 2.7.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi-plugin-desktop:
         specifier: ^1.0.0
-        version: 1.0.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 1.0.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi-plugin-puppeteer:
         specifier: ^3.8.2
         version: 3.9.0(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
@@ -142,7 +142,7 @@ importers:
         version: 0.2.3(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi-plugin-theme-vanilla:
         specifier: ^1.0.6
-        version: 1.1.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+        version: 1.1.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       minato:
         specifier: '>=3.0.0 <4.0.0-0'
         version: 3.1.1
@@ -152,13 +152,13 @@ importers:
     devDependencies:
       '@koishijs/client':
         specifier: ^5.28.0
-        version: 5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2)
+        version: 5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3)
       '@koishijs/plugin-hmr':
         specifier: ^1.2.8
         version: 1.2.9(@koishijs/loader@4.6.6(@koishijs/core@4.18.6))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/scripts':
         specifier: ^4.5.2
-        version: 4.6.1(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))
+        version: 4.6.1(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))
       '@types/node':
         specifier: ^20.11.26
         version: 20.17.12
@@ -173,16 +173,16 @@ importers:
         version: '@shigma/esbuild-register@1.1.1(esbuild@0.24.2)'
       typescript:
         specifier: ^5.4.2
-        version: 5.7.2
+        version: 5.7.3
       yakumo:
         specifier: ^0.3.13
         version: 0.3.13
       yakumo-esbuild:
         specifier: ^0.3.26
-        version: 0.3.26(esbuild@0.24.2)(typescript@5.7.2)(yakumo@0.3.13)
+        version: 0.3.26(esbuild@0.24.2)(typescript@5.7.3)(yakumo@0.3.13)
       yakumo-esbuild-yaml:
         specifier: ^0.3.1
-        version: 0.3.1(yakumo-esbuild@0.3.26(esbuild@0.24.2)(typescript@5.7.2)(yakumo@0.3.13))(yakumo@0.3.13)
+        version: 0.3.1(yakumo-esbuild@0.3.26(esbuild@0.24.2)(typescript@5.7.3)(yakumo@0.3.13))(yakumo@0.3.13)
       yakumo-publish:
         specifier: ^0.3.5
         version: 0.3.10(yakumo@0.3.13)
@@ -191,7 +191,7 @@ importers:
         version: 0.3.3(yakumo-publish@0.3.10(yakumo@0.3.13))(yakumo@0.3.13)
       yakumo-tsc:
         specifier: ^0.3.9
-        version: 0.3.12(typescript@5.7.2)(yakumo@0.3.13)
+        version: 0.3.12(typescript@5.7.3)(yakumo@0.3.13)
       yakumo-upgrade:
         specifier: ^0.3.6
         version: 0.3.6(yakumo@0.3.13)
@@ -206,37 +206,37 @@ importers:
     dependencies:
       '@antfu/eslint-config':
         specifier: ^2.19.0
-        version: 2.27.3(@typescript-eslint/utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(@vue/compiler-sfc@3.5.13)(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
+        version: 2.27.3(@typescript-eslint/utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(@vue/compiler-sfc@3.5.13)(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
       '@nuxt/devtools':
         specifier: ^1.3.1
-        version: 1.7.0(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+        version: 1.7.0(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
       '@unocss/nuxt':
         specifier: ^0.65.0
-        version: 0.65.4(magicast@0.3.5)(postcss@8.4.49)(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))(webpack@5.91.0(esbuild@0.24.2))
+        version: 0.65.4(magicast@0.3.5)(postcss@8.4.49)(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))(webpack@5.91.0(esbuild@0.24.2))
       '@vueuse/nuxt':
         specifier: ^10.9.0
-        version: 10.11.1(magicast@0.3.5)(nuxt@3.15.1(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(encoding@0.1.13)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.2))(yaml@2.7.0))(rollup@4.30.1)(vue@3.5.13(typescript@5.7.2))
+        version: 10.11.1(magicast@0.3.5)(nuxt@3.15.1(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(encoding@0.1.13)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.3)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.3))(yaml@2.7.0))(rollup@4.30.1)(vue@3.5.13(typescript@5.7.3))
       nuxt:
         specifier: ^3.11.2
-        version: 3.15.1(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(encoding@0.1.13)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.2))(yaml@2.7.0)
+        version: 3.15.1(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(encoding@0.1.13)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.3)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.3))(yaml@2.7.0)
       typescript:
         specifier: ^5.4.5
-        version: 5.7.2
+        version: 5.7.3
       vue:
         specifier: ^3.4.27
-        version: 3.5.13(typescript@5.7.2)
+        version: 3.5.13(typescript@5.7.3)
       vue-router:
         specifier: ^4.3.2
-        version: 4.5.0(vue@3.5.13(typescript@5.7.2))
+        version: 4.5.0(vue@3.5.13(typescript@5.7.3))
       vue-tsc:
         specifier: ^2.0.19
-        version: 2.2.0(typescript@5.7.2)
+        version: 2.2.0(typescript@5.7.3)
 
   packages/palais-mermonia:
     dependencies:
       '@arco-design/web-vue':
         specifier: ~2.56.0
-        version: 2.56.3(vue@3.5.13(typescript@5.7.2))
+        version: 2.56.3(vue@3.5.13(typescript@5.7.3))
       '@types/color-string':
         specifier: ~1.5.4
         version: 1.5.5
@@ -245,7 +245,7 @@ importers:
         version: 5.4.3(terser@5.37.0)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))
       '@vueuse/core':
         specifier: ^10.9.0
-        version: 10.11.1(vue@3.5.13(typescript@5.7.2))
+        version: 10.11.1(vue@3.5.13(typescript@5.7.3))
       autoprefixer:
         specifier: ~10.4.18
         version: 10.4.20(postcss@8.4.49)
@@ -266,25 +266,25 @@ importers:
         version: 5.37.0
       typescript:
         specifier: ^5.4.2
-        version: 5.7.2
+        version: 5.7.3
       unocss:
         specifier: ^0.65.0
-        version: 0.65.4(@unocss/webpack@0.65.4(rollup@4.30.1)(webpack@5.91.0))(postcss@8.4.49)(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+        version: 0.65.4(@unocss/webpack@0.65.4(rollup@4.30.1)(webpack@5.91.0))(postcss@8.4.49)(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
       unplugin-auto-import:
         specifier: ^0.19.0
-        version: 0.19.0(@nuxt/kit@3.15.1(magicast@0.3.5)(rollup@4.30.1))(@vueuse/core@10.11.1(vue@3.5.13(typescript@5.7.2)))(rollup@4.30.1)
+        version: 0.19.0(@nuxt/kit@3.15.1(magicast@0.3.5)(rollup@4.30.1))(@vueuse/core@10.11.1(vue@3.5.13(typescript@5.7.3)))(rollup@4.30.1)
       unplugin-vue-components:
         specifier: ^0.28.0
-        version: 0.28.0(@babel/parser@7.26.5)(@nuxt/kit@3.15.1(magicast@0.3.5)(rollup@4.30.1))(rollup@4.30.1)(vue@3.5.13(typescript@5.7.2))
+        version: 0.28.0(@babel/parser@7.26.5)(@nuxt/kit@3.15.1(magicast@0.3.5)(rollup@4.30.1))(rollup@4.30.1)(vue@3.5.13(typescript@5.7.3))
       vitepress:
         specifier: ~1.5.0
-        version: 1.5.0(@algolia/client-search@5.12.0)(@types/node@22.10.5)(async-validator@4.2.5)(axios@1.7.9)(change-case@5.4.4)(postcss@8.4.49)(sass@1.83.0)(search-insights@2.13.0)(terser@5.37.0)(typescript@5.7.2)
+        version: 1.5.0(@algolia/client-search@5.12.0)(@types/node@22.10.5)(async-validator@4.2.5)(axios@1.7.9)(change-case@5.4.4)(postcss@8.4.49)(sass@1.83.0)(search-insights@2.13.0)(terser@5.37.0)(typescript@5.7.3)
       vitepress-sidebar:
         specifier: ^1.22.0
         version: 1.30.2
       vue:
         specifier: ^3.4.21
-        version: 3.5.13(typescript@5.7.2)
+        version: 3.5.13(typescript@5.7.3)
 
 packages:
 
@@ -1965,11 +1965,6 @@ packages:
     resolution: {integrity: sha512-Az9k0ptHbPSkukypgYmg4fA4+Dxpi3ObqY38BPP3S7H3a+Q5A4yPZwxEBCjJcOlvK6Ev+3wz9pcrn7L8xAB+OQ==}
     peerDependencies:
       koishi: ^4.17.10
-
-  '@koishijs/console@5.29.4':
-    resolution: {integrity: sha512-VwEH3CeZVEVZRqzx+qjxyURW6AgRNPvOTvSH2zTVI96FCJvpo56a1dJ//NtbzpRPIPMshPbXP7VsqZZIrrEyGw==}
-    peerDependencies:
-      koishi: ^4.17.12
 
   '@koishijs/console@5.30.0':
     resolution: {integrity: sha512-cDix6bz0wPcr5LakBzVOYtm4BpedO5/ZtDCFe/A7gvvYKAlfNbN6Vw+LevcPb8FerdrYryZKIaTE54d3NvpdBg==}
@@ -5733,8 +5728,8 @@ packages:
     peerDependencies:
       koishi: ^4.17.7
 
-  koishi-plugin-dataview@2.7.5:
-    resolution: {integrity: sha512-Vovx8kgG4BzQGWq0WNoJnkUP/Kz4Zxy/WLQxs3CnTmz1vwAhFx++oNltXPHLkpTEK7km4dAT67VMSFvkaamN5Q==}
+  koishi-plugin-dataview@2.7.6:
+    resolution: {integrity: sha512-YpI4l15TdeZS7fs5GGJ5klEhfbGiImehcSntwKlGonGajCU9Wxj8bltCQuhGTaWaWQDSppUrVl7I0mQafh6WPQ==}
     peerDependencies:
       '@koishijs/plugin-console': ^5.29.2
       koishi: ^4.17.9
@@ -7638,8 +7633,8 @@ packages:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
     engines: {node: '>= 0.6'}
 
-  typescript@5.7.2:
-    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+  typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -8527,32 +8522,32 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@antfu/eslint-config@2.27.3(@typescript-eslint/utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(@vue/compiler-sfc@3.5.13)(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)':
+  '@antfu/eslint-config@2.27.3(@typescript-eslint/utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(@vue/compiler-sfc@3.5.13)(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
       '@antfu/install-pkg': 0.4.1
       '@clack/prompts': 0.7.0
       '@eslint-community/eslint-plugin-eslint-comments': 4.4.0(eslint@9.17.0(jiti@2.4.2))
-      '@stylistic/eslint-plugin': 2.7.2(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
-      '@typescript-eslint/eslint-plugin': 8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
-      '@typescript-eslint/parser': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
-      '@vitest/eslint-plugin': 1.1.0(@typescript-eslint/utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
+      '@stylistic/eslint-plugin': 2.7.2(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
+      '@typescript-eslint/eslint-plugin': 8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
+      '@typescript-eslint/parser': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
+      '@vitest/eslint-plugin': 1.1.0(@typescript-eslint/utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
       eslint: 9.17.0(jiti@2.4.2)
       eslint-config-flat-gitignore: 0.1.8
       eslint-flat-config-utils: 0.3.1
       eslint-merge-processors: 0.1.0(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-antfu: 2.3.6(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-command: 0.2.3(eslint@9.17.0(jiti@2.4.2))
-      eslint-plugin-import-x: 4.1.1(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
+      eslint-plugin-import-x: 4.1.1(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
       eslint-plugin-jsdoc: 50.2.2(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-jsonc: 2.16.0(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-markdown: 5.1.0(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-n: 17.10.2(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-no-only-tests: 3.3.0
-      eslint-plugin-perfectionist: 3.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)(vue-eslint-parser@9.4.3(eslint@9.17.0(jiti@2.4.2)))
+      eslint-plugin-perfectionist: 3.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)(vue-eslint-parser@9.4.3(eslint@9.17.0(jiti@2.4.2)))
       eslint-plugin-regexp: 2.6.0(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-toml: 0.11.1(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-unicorn: 55.0.0(eslint@9.17.0(jiti@2.4.2))
-      eslint-plugin-unused-imports: 4.1.3(@typescript-eslint/eslint-plugin@8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))
+      eslint-plugin-unused-imports: 4.1.3(@typescript-eslint/eslint-plugin@8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-vue: 9.27.0(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-yml: 1.14.0(eslint@9.17.0(jiti@2.4.2))
       eslint-processor-vue-blocks: 0.1.2(@vue/compiler-sfc@3.5.13)(eslint@9.17.0(jiti@2.4.2))
@@ -8584,7 +8579,7 @@ snapshots:
     dependencies:
       color: 3.2.1
 
-  '@arco-design/web-vue@2.56.3(vue@3.5.13(typescript@5.7.2))':
+  '@arco-design/web-vue@2.56.3(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@arco-design/color': 0.4.0
       b-tween: 0.3.3
@@ -8594,7 +8589,7 @@ snapshots:
       number-precision: 1.6.0
       resize-observer-polyfill: 1.5.1
       scroll-into-view-if-needed: 2.2.31
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
   '@babel/code-frame@7.24.2':
     dependencies:
@@ -9744,9 +9739,9 @@ snapshots:
     transitivePeerDependencies:
       - '@algolia/client-search'
 
-  '@element-plus/icons-vue@2.3.1(vue@3.5.13(typescript@5.7.2))':
+  '@element-plus/icons-vue@2.3.1(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
   '@es-joy/jsdoccomment@0.43.1':
     dependencies:
@@ -10157,25 +10152,25 @@ snapshots:
     dependencies:
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  '@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2)':
+  '@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3)':
     dependencies:
-      '@koishijs/components': 1.5.15(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.2)))(element-plus@2.7.7(vue@3.5.13(typescript@5.7.2)))(vue@3.5.13(typescript@5.7.2))
+      '@koishijs/components': 1.5.15(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.3)))(element-plus@2.7.7(vue@3.5.13(typescript@5.7.3)))(vue@3.5.13(typescript@5.7.3))
       '@maikolib/vite-plugin-yaml': 1.1.0(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))
       '@satorijs/protocol': 1.4.2
-      '@vitejs/plugin-vue': 5.2.1(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
-      '@vueuse/core': 11.3.0(vue@3.5.13(typescript@5.7.2))
+      '@vitejs/plugin-vue': 5.2.1(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
+      '@vueuse/core': 11.3.0(vue@3.5.13(typescript@5.7.3))
       cac: 6.7.14
       cordis: 3.18.1
       cosmokit: 1.6.3
-      element-plus: 2.7.7(vue@3.5.13(typescript@5.7.2))
-      marked-vue: 1.3.0(vue@3.5.13(typescript@5.7.2))
+      element-plus: 2.7.7(vue@3.5.13(typescript@5.7.3))
+      marked-vue: 1.3.0(vue@3.5.13(typescript@5.7.3))
       ns-require: 1.1.4
       sass: 1.83.0
-      unocss: 0.65.1(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      unocss: 0.65.1(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
       vite: 5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0)
-      vue: 3.5.13(typescript@5.7.2)
-      vue-i18n: 9.14.2(vue@3.5.13(typescript@5.7.2))
-      vue-router: 4.5.0(vue@3.5.13(typescript@5.7.2))
+      vue: 3.5.13(typescript@5.7.3)
+      vue-i18n: 9.14.2(vue@3.5.13(typescript@5.7.3))
+      vue-router: 4.5.0(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - '@types/node'
       - '@unocss/webpack'
@@ -10191,12 +10186,12 @@ snapshots:
       - terser
       - typescript
 
-  '@koishijs/components@1.5.15(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.2)))(element-plus@2.7.7(vue@3.5.13(typescript@5.7.2)))(vue@3.5.13(typescript@5.7.2))':
+  '@koishijs/components@1.5.15(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.3)))(element-plus@2.7.7(vue@3.5.13(typescript@5.7.3)))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@satorijs/element': 3.1.7
       cosmokit: 1.6.3
-      schemastery-vue: 7.3.9(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.2)))(element-plus@2.7.7(vue@3.5.13(typescript@5.7.2)))(vue@3.5.13(typescript@5.7.2))
-      vue: 3.5.13(typescript@5.7.2)
+      schemastery-vue: 7.3.9(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.3)))(element-plus@2.7.7(vue@3.5.13(typescript@5.7.3)))(vue@3.5.13(typescript@5.7.3))
+      vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:
       - '@vueuse/core'
       - element-plus
@@ -10214,10 +10209,6 @@ snapshots:
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   '@koishijs/console@5.29.3(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
-    dependencies:
-      koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
-
-  '@koishijs/console@5.29.4(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
@@ -10316,45 +10307,45 @@ snapshots:
     transitivePeerDependencies:
       - '@satorijs/core'
 
-  '@koishijs/plugin-admin@2.0.0-beta.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-admin@2.0.0-beta.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
       throttle-debounce: 3.0.1
     optionalDependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
 
-  '@koishijs/plugin-analytics@2.0.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-analytics@2.0.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.28.3(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  '@koishijs/plugin-auth@4.1.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-auth@4.1.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.28.3(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   '@koishijs/plugin-bind@1.5.1(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  '@koishijs/plugin-commands@3.5.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-commands@3.5.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.28.4(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
     optionalDependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
 
-  '@koishijs/plugin-config@2.8.6(@koishijs/loader@4.6.6(@koishijs/core@4.18.6))(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-config@2.8.6(@koishijs/loader@4.6.6(@koishijs/core@4.18.6))(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.30.0(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/loader': 4.6.6(@koishijs/core@4.18.6)
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/registry': 7.0.3
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  '@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.30.2(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
@@ -10362,7 +10353,7 @@ snapshots:
       uuid: 8.3.2
       ws: 8.18.0
     optionalDependencies:
-      '@koishijs/client': 5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2)
+      '@koishijs/client': 5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -10374,10 +10365,10 @@ snapshots:
     transitivePeerDependencies:
       - minato
 
-  '@koishijs/plugin-explorer@1.5.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-explorer@1.5.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.29.2(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       anymatch: 3.1.3
       chardet: 2.0.0
       chokidar: 3.6.0
@@ -10405,32 +10396,32 @@ snapshots:
       - cordis
       - utf-8-validate
 
-  '@koishijs/plugin-insight@3.5.2(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-insight@3.5.2(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.29.2(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   '@koishijs/plugin-inspect@1.1.7(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  '@koishijs/plugin-locales@2.5.3(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-locales@2.5.3(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.28.3(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       js-yaml: 4.1.0
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
     optionalDependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
 
-  '@koishijs/plugin-logger@2.6.9(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-logger@2.6.9(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.30.2(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
     optionalDependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
 
-  '@koishijs/plugin-market@2.11.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-market@2.11.4(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.30.2(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@koishijs/registry': 7.0.3
@@ -10442,7 +10433,7 @@ snapshots:
       semver: 7.6.3
       which-pm-runs: 1.1.0
     optionalDependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
 
   '@koishijs/plugin-proxy-agent@0.3.3(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
@@ -10453,10 +10444,10 @@ snapshots:
       - cordis
       - supports-color
 
-  '@koishijs/plugin-sandbox@3.4.1(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-sandbox@3.4.1(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.29.3(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   '@koishijs/plugin-server-satori@2.9.0(@satorijs/core@4.5.0(cordis@3.13.6))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
@@ -10476,10 +10467,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@koishijs/plugin-status@7.4.10(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
+  '@koishijs/plugin-status@7.4.10(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))':
     dependencies:
       '@koishijs/console': 5.28.3(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       envinfo: 7.12.0
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
       which-pm-runs: 1.1.0
@@ -10490,9 +10481,9 @@ snapshots:
       p-map: 4.0.0
       semver: 7.6.3
 
-  '@koishijs/scripts@4.6.1(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))':
+  '@koishijs/scripts@4.6.1(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))':
     dependencies:
-      '@koishijs/client': 5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2)
+      '@koishijs/client': 5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3)
       cac: 6.7.14
       fs-extra: 10.1.0
       globby: 11.1.0
@@ -10599,13 +10590,13 @@ snapshots:
       rc9: 2.1.2
       semver: 7.6.3
 
-  '@nuxt/devtools@1.7.0(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))':
+  '@nuxt/devtools@1.7.0(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@antfu/utils': 0.7.10
       '@nuxt/devtools-kit': 1.7.0(magicast@0.3.5)(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       '@nuxt/devtools-wizard': 1.7.0
       '@nuxt/kit': 3.15.0(magicast@0.3.5)(rollup@4.30.1)
-      '@vue/devtools-core': 7.6.8(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+      '@vue/devtools-core': 7.6.8(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
       '@vue/devtools-kit': 7.6.8
       birpc: 0.2.19
       consola: 3.3.3
@@ -10792,12 +10783,12 @@ snapshots:
       - rollup
       - supports-color
 
-  '@nuxt/vite-builder@3.15.1(@types/node@22.10.5)(eslint@9.17.0(jiti@2.4.2))(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(vue-tsc@2.2.0(typescript@5.7.2))(vue@3.5.13(typescript@5.7.2))(yaml@2.7.0)':
+  '@nuxt/vite-builder@3.15.1(@types/node@22.10.5)(eslint@9.17.0(jiti@2.4.2))(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.3)(vue-tsc@2.2.0(typescript@5.7.3))(vue@3.5.13(typescript@5.7.3))(yaml@2.7.0)':
     dependencies:
       '@nuxt/kit': 3.15.1(magicast@0.3.5)(rollup@4.30.1)
       '@rollup/plugin-replace': 6.0.2(rollup@4.30.1)
-      '@vitejs/plugin-vue': 5.2.1(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
-      '@vitejs/plugin-vue-jsx': 4.1.1(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+      '@vitejs/plugin-vue': 5.2.1(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
+      '@vitejs/plugin-vue-jsx': 4.1.1(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
       autoprefixer: 10.4.20(postcss@8.4.49)
       consola: 3.3.3
       cssnano: 7.0.6(postcss@8.4.49)
@@ -10823,8 +10814,8 @@ snapshots:
       unplugin: 2.1.2
       vite: 6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0)
       vite-node: 2.1.8(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0)
-      vite-plugin-checker: 0.8.0(eslint@9.17.0(jiti@2.4.2))(optionator@0.9.4)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.2))
-      vue: 3.5.13(typescript@5.7.2)
+      vite-plugin-checker: 0.8.0(eslint@9.17.0(jiti@2.4.2))(optionator@0.9.4)(typescript@5.7.3)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.3))
+      vue: 3.5.13(typescript@5.7.3)
       vue-bundle-renderer: 2.1.1
     transitivePeerDependencies:
       - '@biomejs/biome'
@@ -11356,10 +11347,10 @@ snapshots:
 
   '@slack/types@2.11.0': {}
 
-  '@stylistic/eslint-plugin@2.7.2(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)':
+  '@stylistic/eslint-plugin@2.7.2(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
       '@types/eslint': 9.6.1
-      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
+      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
       eslint: 9.17.0(jiti@2.4.2)
       eslint-visitor-keys: 4.2.0
       espree: 10.3.0
@@ -11559,34 +11550,34 @@ snapshots:
       '@types/node': 20.17.12
     optional: true
 
-  '@typescript-eslint/eslint-plugin@8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)':
+  '@typescript-eslint/eslint-plugin@8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.1
-      '@typescript-eslint/parser': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
+      '@typescript-eslint/parser': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
       '@typescript-eslint/scope-manager': 8.3.0
-      '@typescript-eslint/type-utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
-      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
+      '@typescript-eslint/type-utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
+      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
       '@typescript-eslint/visitor-keys': 8.3.0
       eslint: 9.17.0(jiti@2.4.2)
       graphemer: 1.4.0
       ignore: 5.3.2
       natural-compare: 1.4.0
-      ts-api-utils: 1.3.0(typescript@5.7.2)
+      ts-api-utils: 1.3.0(typescript@5.7.3)
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)':
+  '@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
       '@typescript-eslint/scope-manager': 8.3.0
       '@typescript-eslint/types': 8.3.0
-      '@typescript-eslint/typescript-estree': 8.3.0(typescript@5.7.2)
+      '@typescript-eslint/typescript-estree': 8.3.0(typescript@5.7.3)
       '@typescript-eslint/visitor-keys': 8.3.0
       debug: 4.3.7
       eslint: 9.17.0(jiti@2.4.2)
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
     transitivePeerDependencies:
       - supports-color
 
@@ -11595,14 +11586,14 @@ snapshots:
       '@typescript-eslint/types': 8.3.0
       '@typescript-eslint/visitor-keys': 8.3.0
 
-  '@typescript-eslint/type-utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)':
+  '@typescript-eslint/type-utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
-      '@typescript-eslint/typescript-estree': 8.3.0(typescript@5.7.2)
-      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
+      '@typescript-eslint/typescript-estree': 8.3.0(typescript@5.7.3)
+      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
       debug: 4.4.0(supports-color@9.4.0)
-      ts-api-utils: 1.3.0(typescript@5.7.2)
+      ts-api-utils: 1.3.0(typescript@5.7.3)
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
     transitivePeerDependencies:
       - eslint
       - supports-color
@@ -11611,7 +11602,7 @@ snapshots:
 
   '@typescript-eslint/types@8.3.0': {}
 
-  '@typescript-eslint/typescript-estree@8.3.0(typescript@5.7.2)':
+  '@typescript-eslint/typescript-estree@8.3.0(typescript@5.7.3)':
     dependencies:
       '@typescript-eslint/types': 8.3.0
       '@typescript-eslint/visitor-keys': 8.3.0
@@ -11620,18 +11611,18 @@ snapshots:
       is-glob: 4.0.3
       minimatch: 9.0.5
       semver: 7.6.3
-      ts-api-utils: 1.3.0(typescript@5.7.2)
+      ts-api-utils: 1.3.0(typescript@5.7.3)
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)':
+  '@typescript-eslint/utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
       '@eslint-community/eslint-utils': 4.4.1(eslint@9.17.0(jiti@2.4.2))
       '@typescript-eslint/scope-manager': 8.3.0
       '@typescript-eslint/types': 8.3.0
-      '@typescript-eslint/typescript-estree': 8.3.0(typescript@5.7.2)
+      '@typescript-eslint/typescript-estree': 8.3.0(typescript@5.7.3)
       eslint: 9.17.0(jiti@2.4.2)
     transitivePeerDependencies:
       - supports-color
@@ -11664,19 +11655,19 @@ snapshots:
       '@unhead/schema': 1.11.15
       '@unhead/shared': 1.11.15
 
-  '@unhead/vue@1.11.15(vue@3.5.13(typescript@5.7.2))':
+  '@unhead/vue@1.11.15(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@unhead/schema': 1.11.15
       '@unhead/shared': 1.11.15
       hookable: 5.5.3
       unhead: 1.11.15
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
-  '@unocss/astro@0.65.1(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
+  '@unocss/astro@0.65.1(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@unocss/core': 0.65.1
       '@unocss/reset': 0.65.1
-      '@unocss/vite': 0.65.1(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/vite': 0.65.1(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
     optionalDependencies:
       vite: 5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0)
     transitivePeerDependencies:
@@ -11684,11 +11675,11 @@ snapshots:
       - supports-color
       - vue
 
-  '@unocss/astro@0.65.4(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
+  '@unocss/astro@0.65.4(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@unocss/core': 0.65.4
       '@unocss/reset': 0.65.4
-      '@unocss/vite': 0.65.4(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/vite': 0.65.4(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
     optionalDependencies:
       vite: 5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0)
     transitivePeerDependencies:
@@ -11696,11 +11687,11 @@ snapshots:
       - supports-color
       - vue
 
-  '@unocss/astro@0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))':
+  '@unocss/astro@0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@unocss/core': 0.65.4
       '@unocss/reset': 0.65.4
-      '@unocss/vite': 0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/vite': 0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
     optionalDependencies:
       vite: 6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0)
     transitivePeerDependencies:
@@ -11772,28 +11763,28 @@ snapshots:
     dependencies:
       '@unocss/core': 0.65.4
 
-  '@unocss/inspector@0.65.1(vue@3.5.13(typescript@5.7.2))':
+  '@unocss/inspector@0.65.1(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@unocss/core': 0.65.1
       '@unocss/rule-utils': 0.65.1
       gzip-size: 6.0.0
       sirv: 2.0.4
-      vue-flow-layout: 0.1.1(vue@3.5.13(typescript@5.7.2))
+      vue-flow-layout: 0.1.1(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - vue
 
-  '@unocss/inspector@0.65.4(vue@3.5.13(typescript@5.7.2))':
+  '@unocss/inspector@0.65.4(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@unocss/core': 0.65.4
       '@unocss/rule-utils': 0.65.4
       colorette: 2.0.20
       gzip-size: 6.0.0
       sirv: 3.0.0
-      vue-flow-layout: 0.1.1(vue@3.5.13(typescript@5.7.2))
+      vue-flow-layout: 0.1.1(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - vue
 
-  '@unocss/nuxt@0.65.4(magicast@0.3.5)(postcss@8.4.49)(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))(webpack@5.91.0(esbuild@0.24.2))':
+  '@unocss/nuxt@0.65.4(magicast@0.3.5)(postcss@8.4.49)(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))(webpack@5.91.0(esbuild@0.24.2))':
     dependencies:
       '@nuxt/kit': 3.15.1(magicast@0.3.5)(rollup@4.30.1)
       '@unocss/config': 0.65.4
@@ -11806,9 +11797,9 @@ snapshots:
       '@unocss/preset-web-fonts': 0.65.4
       '@unocss/preset-wind': 0.65.4
       '@unocss/reset': 0.65.4
-      '@unocss/vite': 0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/vite': 0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
       '@unocss/webpack': 0.65.4(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2))
-      unocss: 0.65.4(@unocss/webpack@0.65.4(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+      unocss: 0.65.4(@unocss/webpack@0.65.4(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - magicast
       - postcss
@@ -11980,13 +11971,13 @@ snapshots:
     dependencies:
       '@unocss/core': 0.65.4
 
-  '@unocss/vite@0.65.1(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
+  '@unocss/vite@0.65.1(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@rollup/pluginutils': 5.1.3(rollup@4.30.1)
       '@unocss/config': 0.65.1
       '@unocss/core': 0.65.1
-      '@unocss/inspector': 0.65.1(vue@3.5.13(typescript@5.7.2))
+      '@unocss/inspector': 0.65.1(vue@3.5.13(typescript@5.7.3))
       chokidar: 3.6.0
       magic-string: 0.30.17
       tinyglobby: 0.2.10
@@ -11996,13 +11987,13 @@ snapshots:
       - supports-color
       - vue
 
-  '@unocss/vite@0.65.4(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
+  '@unocss/vite@0.65.4(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@rollup/pluginutils': 5.1.4(rollup@4.30.1)
       '@unocss/config': 0.65.4
       '@unocss/core': 0.65.4
-      '@unocss/inspector': 0.65.4(vue@3.5.13(typescript@5.7.2))
+      '@unocss/inspector': 0.65.4(vue@3.5.13(typescript@5.7.3))
       chokidar: 3.6.0
       magic-string: 0.30.17
       tinyglobby: 0.2.10
@@ -12012,13 +12003,13 @@ snapshots:
       - supports-color
       - vue
 
-  '@unocss/vite@0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))':
+  '@unocss/vite@0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@rollup/pluginutils': 5.1.4(rollup@4.30.1)
       '@unocss/config': 0.65.4
       '@unocss/core': 0.65.4
-      '@unocss/inspector': 0.65.4(vue@3.5.13(typescript@5.7.2))
+      '@unocss/inspector': 0.65.4(vue@3.5.13(typescript@5.7.3))
       chokidar: 3.6.0
       magic-string: 0.30.17
       tinyglobby: 0.2.10
@@ -12112,37 +12103,37 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-vue-jsx@4.1.1(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))':
+  '@vitejs/plugin-vue-jsx@4.1.1(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-typescript': 7.26.5(@babel/core@7.26.0)
       '@vue/babel-plugin-jsx': 1.2.5(@babel/core@7.26.0)
       vite: 6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0)
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-vue@5.1.4(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
+  '@vitejs/plugin-vue@5.1.4(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       vite: 5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0)
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
-  '@vitejs/plugin-vue@5.2.1(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))':
+  '@vitejs/plugin-vue@5.2.1(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       vite: 5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0)
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
-  '@vitejs/plugin-vue@5.2.1(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))':
+  '@vitejs/plugin-vue@5.2.1(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       vite: 6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0)
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
-  '@vitest/eslint-plugin@1.1.0(@typescript-eslint/utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)':
+  '@vitest/eslint-plugin@1.1.0(@typescript-eslint/utils@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
       eslint: 9.17.0(jiti@2.4.2)
     optionalDependencies:
-      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
-      typescript: 5.7.2
+      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
+      typescript: 5.7.3
 
   '@volar/language-core@2.4.11':
     dependencies:
@@ -12156,7 +12147,7 @@ snapshots:
       path-browserify: 1.0.1
       vscode-uri: 3.0.8
 
-  '@vue-macros/common@1.15.1(rollup@4.30.1)(vue@3.5.13(typescript@5.7.2))':
+  '@vue-macros/common@1.15.1(rollup@4.30.1)(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@babel/types': 7.26.5
       '@rollup/pluginutils': 5.1.4(rollup@4.30.1)
@@ -12165,7 +12156,7 @@ snapshots:
       local-pkg: 0.5.1
       magic-string-ast: 0.6.3
     optionalDependencies:
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:
       - rollup
 
@@ -12240,7 +12231,7 @@ snapshots:
     dependencies:
       '@vue/devtools-kit': 7.6.8
 
-  '@vue/devtools-core@7.6.8(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))':
+  '@vue/devtools-core@7.6.8(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@vue/devtools-kit': 7.6.8
       '@vue/devtools-shared': 7.6.8
@@ -12248,7 +12239,7 @@ snapshots:
       nanoid: 5.0.9
       pathe: 1.1.2
       vite-hot-client: 0.2.4(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:
       - vite
 
@@ -12266,7 +12257,7 @@ snapshots:
     dependencies:
       rfdc: 1.4.1
 
-  '@vue/language-core@2.2.0(typescript@5.7.2)':
+  '@vue/language-core@2.2.0(typescript@5.7.3)':
     dependencies:
       '@volar/language-core': 2.4.11
       '@vue/compiler-dom': 3.5.13
@@ -12277,7 +12268,7 @@ snapshots:
       muggle-string: 0.4.1
       path-browserify: 1.0.1
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   '@vue/reactivity@3.5.13':
     dependencies:
@@ -12295,61 +12286,61 @@ snapshots:
       '@vue/shared': 3.5.13
       csstype: 3.1.3
 
-  '@vue/server-renderer@3.5.13(vue@3.5.13(typescript@5.7.2))':
+  '@vue/server-renderer@3.5.13(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@vue/compiler-ssr': 3.5.13
       '@vue/shared': 3.5.13
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
   '@vue/shared@3.5.12': {}
 
   '@vue/shared@3.5.13': {}
 
-  '@vueuse/core@10.11.1(vue@3.5.13(typescript@5.7.2))':
+  '@vueuse/core@10.11.1(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@types/web-bluetooth': 0.0.20
       '@vueuse/metadata': 10.11.1
-      '@vueuse/shared': 10.11.1(vue@3.5.13(typescript@5.7.2))
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+      '@vueuse/shared': 10.11.1(vue@3.5.13(typescript@5.7.3))
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/core@11.2.0(vue@3.5.13(typescript@5.7.2))':
+  '@vueuse/core@11.2.0(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@types/web-bluetooth': 0.0.20
       '@vueuse/metadata': 11.2.0
-      '@vueuse/shared': 11.2.0(vue@3.5.13(typescript@5.7.2))
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+      '@vueuse/shared': 11.2.0(vue@3.5.13(typescript@5.7.3))
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.2))':
+  '@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@types/web-bluetooth': 0.0.20
       '@vueuse/metadata': 11.3.0
-      '@vueuse/shared': 11.3.0(vue@3.5.13(typescript@5.7.2))
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+      '@vueuse/shared': 11.3.0(vue@3.5.13(typescript@5.7.3))
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/core@9.13.0(vue@3.5.13(typescript@5.7.2))':
+  '@vueuse/core@9.13.0(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@types/web-bluetooth': 0.0.16
       '@vueuse/metadata': 9.13.0
-      '@vueuse/shared': 9.13.0(vue@3.5.13(typescript@5.7.2))
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+      '@vueuse/shared': 9.13.0(vue@3.5.13(typescript@5.7.3))
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/integrations@11.2.0(async-validator@4.2.5)(axios@1.7.9)(change-case@5.4.4)(focus-trap@7.6.0)(vue@3.5.13(typescript@5.7.2))':
+  '@vueuse/integrations@11.2.0(async-validator@4.2.5)(axios@1.7.9)(change-case@5.4.4)(focus-trap@7.6.0)(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      '@vueuse/core': 11.2.0(vue@3.5.13(typescript@5.7.2))
-      '@vueuse/shared': 11.2.0(vue@3.5.13(typescript@5.7.2))
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+      '@vueuse/core': 11.2.0(vue@3.5.13(typescript@5.7.3))
+      '@vueuse/shared': 11.2.0(vue@3.5.13(typescript@5.7.3))
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
     optionalDependencies:
       async-validator: 4.2.5
       axios: 1.7.9
@@ -12367,14 +12358,14 @@ snapshots:
 
   '@vueuse/metadata@9.13.0': {}
 
-  '@vueuse/nuxt@10.11.1(magicast@0.3.5)(nuxt@3.15.1(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(encoding@0.1.13)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.2))(yaml@2.7.0))(rollup@4.30.1)(vue@3.5.13(typescript@5.7.2))':
+  '@vueuse/nuxt@10.11.1(magicast@0.3.5)(nuxt@3.15.1(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(encoding@0.1.13)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.3)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.3))(yaml@2.7.0))(rollup@4.30.1)(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@nuxt/kit': 3.12.4(magicast@0.3.5)(rollup@4.30.1)
-      '@vueuse/core': 10.11.1(vue@3.5.13(typescript@5.7.2))
+      '@vueuse/core': 10.11.1(vue@3.5.13(typescript@5.7.3))
       '@vueuse/metadata': 10.11.1
       local-pkg: 0.5.0
-      nuxt: 3.15.1(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(encoding@0.1.13)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.2))(yaml@2.7.0)
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+      nuxt: 3.15.1(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(encoding@0.1.13)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.3)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.3))(yaml@2.7.0)
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - magicast
@@ -12382,30 +12373,30 @@ snapshots:
       - supports-color
       - vue
 
-  '@vueuse/shared@10.11.1(vue@3.5.13(typescript@5.7.2))':
+  '@vueuse/shared@10.11.1(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/shared@11.2.0(vue@3.5.13(typescript@5.7.2))':
+  '@vueuse/shared@11.2.0(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/shared@11.3.0(vue@3.5.13(typescript@5.7.2))':
+  '@vueuse/shared@11.3.0(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/shared@9.13.0(vue@3.5.13(typescript@5.7.2))':
+  '@vueuse/shared@9.13.0(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -12660,12 +12651,12 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  atsc@1.2.2(typescript@5.7.2):
+  atsc@1.2.2(typescript@5.7.3):
     dependencies:
       globby: 11.1.0
       js-yaml: 4.1.0
-      tsconfig-utils: 3.1.3(typescript@5.7.2)
-      typescript: 5.7.2
+      tsconfig-utils: 3.1.3(typescript@5.7.3)
+      typescript: 5.7.3
 
   autoprefixer@10.4.20(postcss@8.4.49):
     dependencies:
@@ -13473,10 +13464,10 @@ snapshots:
 
   dotenv@16.4.7: {}
 
-  dtsc@2.3.0(typescript@5.7.2):
+  dtsc@2.3.0(typescript@5.7.3):
     dependencies:
-      tsconfig-utils: 3.1.3(typescript@5.7.2)
-      typescript: 5.7.2
+      tsconfig-utils: 3.1.3(typescript@5.7.3)
+      typescript: 5.7.3
 
   duplexer3@0.1.5: {}
 
@@ -13494,15 +13485,15 @@ snapshots:
 
   electron-to-chromium@1.5.80: {}
 
-  element-plus@2.7.7(vue@3.5.13(typescript@5.7.2)):
+  element-plus@2.7.7(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       '@ctrl/tinycolor': 3.6.1
-      '@element-plus/icons-vue': 2.3.1(vue@3.5.13(typescript@5.7.2))
+      '@element-plus/icons-vue': 2.3.1(vue@3.5.13(typescript@5.7.3))
       '@floating-ui/dom': 1.6.12
       '@popperjs/core': '@sxzz/popperjs-es@2.11.7'
       '@types/lodash': 4.17.13
       '@types/lodash-es': 4.17.12
-      '@vueuse/core': 9.13.0(vue@3.5.13(typescript@5.7.2))
+      '@vueuse/core': 9.13.0(vue@3.5.13(typescript@5.7.3))
       async-validator: 4.2.5
       dayjs: 1.11.13
       escape-html: 1.0.3
@@ -13511,7 +13502,7 @@ snapshots:
       lodash-unified: 1.0.3(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)
       memoize-one: 6.0.0
       normalize-wheel-es: 1.2.0
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:
       - '@vue/composition-api'
 
@@ -13729,10 +13720,10 @@ snapshots:
       eslint: 9.17.0(jiti@2.4.2)
       eslint-compat-utils: 0.5.1(eslint@9.17.0(jiti@2.4.2))
 
-  eslint-plugin-import-x@4.1.1(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2):
+  eslint-plugin-import-x@4.1.1(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3):
     dependencies:
-      '@typescript-eslint/typescript-estree': 8.3.0(typescript@5.7.2)
-      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
+      '@typescript-eslint/typescript-estree': 8.3.0(typescript@5.7.3)
+      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
       debug: 4.3.7
       doctrine: 3.0.0
       eslint: 9.17.0(jiti@2.4.2)
@@ -13796,10 +13787,10 @@ snapshots:
 
   eslint-plugin-no-only-tests@3.3.0: {}
 
-  eslint-plugin-perfectionist@3.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)(vue-eslint-parser@9.4.3(eslint@9.17.0(jiti@2.4.2))):
+  eslint-plugin-perfectionist@3.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)(vue-eslint-parser@9.4.3(eslint@9.17.0(jiti@2.4.2))):
     dependencies:
       '@typescript-eslint/types': 8.3.0
-      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
+      '@typescript-eslint/utils': 8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
       eslint: 9.17.0(jiti@2.4.2)
       minimatch: 10.0.1
       natural-compare-lite: 1.4.0
@@ -13850,11 +13841,11 @@ snapshots:
       semver: 7.6.3
       strip-indent: 3.0.0
 
-  eslint-plugin-unused-imports@4.1.3(@typescript-eslint/eslint-plugin@8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2)):
+  eslint-plugin-unused-imports@4.1.3(@typescript-eslint/eslint-plugin@8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.17.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.17.0(jiti@2.4.2)
     optionalDependencies:
-      '@typescript-eslint/eslint-plugin': 8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
+      '@typescript-eslint/eslint-plugin': 8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.3)
 
   eslint-plugin-vue@9.27.0(eslint@9.17.0(jiti@2.4.2)):
     dependencies:
@@ -14837,15 +14828,15 @@ snapshots:
       file-type: 16.5.4
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  koishi-plugin-dataview@2.7.5(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
+  koishi-plugin-dataview@2.7.6(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
     dependencies:
-      '@koishijs/console': 5.29.4(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/console': 5.30.2(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  koishi-plugin-desktop@1.0.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
+  koishi-plugin-desktop@1.0.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
     dependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   koishi-plugin-puppeteer@3.9.0(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
@@ -14867,9 +14858,9 @@ snapshots:
     dependencies:
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
-  koishi-plugin-theme-vanilla@1.1.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
+  koishi-plugin-theme-vanilla@1.1.0(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)):
     dependencies:
-      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.2))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
+      '@koishijs/plugin-console': 5.30.2(@koishijs/client@5.30.2(@types/node@20.17.12)(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(terser@5.37.0)(typescript@5.7.3))(koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       koishi: 4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)
 
   koishi@4.18.6(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6):
@@ -15052,10 +15043,10 @@ snapshots:
 
   mark.js@8.11.1: {}
 
-  marked-vue@1.3.0(vue@3.5.13(typescript@5.7.2)):
+  marked-vue@1.3.0(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       marked: 9.1.6
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
       xss: 1.0.15
 
   marked@9.1.6: {}
@@ -15248,7 +15239,7 @@ snapshots:
 
   netmask@2.0.2: {}
 
-  nitropack@2.10.4(encoding@0.1.13)(typescript@5.7.2):
+  nitropack@2.10.4(encoding@0.1.13)(typescript@5.7.3):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@netlify/functions': 2.8.2
@@ -15297,7 +15288,7 @@ snapshots:
       node-fetch-native: 1.6.4
       ofetch: 1.4.1
       ohash: 1.1.4
-      openapi-typescript: 7.5.2(encoding@0.1.13)(typescript@5.7.2)
+      openapi-typescript: 7.5.2(encoding@0.1.13)(typescript@5.7.3)
       pathe: 1.1.2
       perfect-debounce: 1.0.0
       pkg-types: 1.3.0
@@ -15402,18 +15393,18 @@ snapshots:
 
   nuxi@3.20.0: {}
 
-  nuxt@3.15.1(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(encoding@0.1.13)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.2))(yaml@2.7.0):
+  nuxt@3.15.1(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(encoding@0.1.13)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.3)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.3))(yaml@2.7.0):
     dependencies:
       '@nuxt/devalue': 2.0.2
-      '@nuxt/devtools': 1.7.0(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+      '@nuxt/devtools': 1.7.0(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
       '@nuxt/kit': 3.15.1(magicast@0.3.5)(rollup@4.30.1)
       '@nuxt/schema': 3.15.1
       '@nuxt/telemetry': 2.6.4(magicast@0.3.5)(rollup@4.30.1)
-      '@nuxt/vite-builder': 3.15.1(@types/node@22.10.5)(eslint@9.17.0(jiti@2.4.2))(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(vue-tsc@2.2.0(typescript@5.7.2))(vue@3.5.13(typescript@5.7.2))(yaml@2.7.0)
+      '@nuxt/vite-builder': 3.15.1(@types/node@22.10.5)(eslint@9.17.0(jiti@2.4.2))(magicast@0.3.5)(optionator@0.9.4)(rollup@4.30.1)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.3)(vue-tsc@2.2.0(typescript@5.7.3))(vue@3.5.13(typescript@5.7.3))(yaml@2.7.0)
       '@unhead/dom': 1.11.15
       '@unhead/shared': 1.11.15
       '@unhead/ssr': 1.11.15
-      '@unhead/vue': 1.11.15(vue@3.5.13(typescript@5.7.2))
+      '@unhead/vue': 1.11.15(vue@3.5.13(typescript@5.7.3))
       '@vue/shared': 3.5.13
       acorn: 8.14.0
       c12: 2.0.1(magicast@0.3.5)
@@ -15439,7 +15430,7 @@ snapshots:
       magic-string: 0.30.17
       mlly: 1.7.3
       nanotar: 0.1.1
-      nitropack: 2.10.4(encoding@0.1.13)(typescript@5.7.2)
+      nitropack: 2.10.4(encoding@0.1.13)(typescript@5.7.3)
       nuxi: 3.20.0
       nypm: 0.4.1
       ofetch: 1.4.1
@@ -15461,13 +15452,13 @@ snapshots:
       unhead: 1.11.15
       unimport: 3.14.5(rollup@4.30.1)
       unplugin: 2.1.2
-      unplugin-vue-router: 0.10.9(rollup@4.30.1)(vue-router@4.5.0(vue@3.5.13(typescript@5.7.2)))(vue@3.5.13(typescript@5.7.2))
+      unplugin-vue-router: 0.10.9(rollup@4.30.1)(vue-router@4.5.0(vue@3.5.13(typescript@5.7.3)))(vue@3.5.13(typescript@5.7.3))
       unstorage: 1.14.4(db0@0.2.1)(ioredis@5.4.2)
       untyped: 1.5.2
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
       vue-bundle-renderer: 2.1.1
       vue-devtools-stub: 0.1.0
-      vue-router: 4.5.0(vue@3.5.13(typescript@5.7.2))
+      vue-router: 4.5.0(vue@3.5.13(typescript@5.7.3))
     optionalDependencies:
       '@parcel/watcher': 2.5.0
       '@types/node': 22.10.5
@@ -15592,14 +15583,14 @@ snapshots:
       is-docker: 2.2.1
       is-wsl: 2.2.0
 
-  openapi-typescript@7.5.2(encoding@0.1.13)(typescript@5.7.2):
+  openapi-typescript@7.5.2(encoding@0.1.13)(typescript@5.7.3):
     dependencies:
       '@redocly/openapi-core': 1.27.1(encoding@0.1.13)(supports-color@9.4.0)
       ansi-colors: 4.1.3
       change-case: 5.4.4
       parse-json: 8.1.0
       supports-color: 9.4.0
-      typescript: 5.7.2
+      typescript: 5.7.3
       yargs-parser: 21.1.1
     transitivePeerDependencies:
       - encoding
@@ -16566,12 +16557,12 @@ snapshots:
       ajv-formats: 2.1.1(ajv@8.17.1)
       ajv-keywords: 5.1.0(ajv@8.17.1)
 
-  schemastery-vue@7.3.9(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.2)))(element-plus@2.7.7(vue@3.5.13(typescript@5.7.2)))(vue@3.5.13(typescript@5.7.2)):
+  schemastery-vue@7.3.9(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.3)))(element-plus@2.7.7(vue@3.5.13(typescript@5.7.3)))(vue@3.5.13(typescript@5.7.3)):
     dependencies:
-      '@vueuse/core': 11.3.0(vue@3.5.13(typescript@5.7.2))
-      element-plus: 2.7.7(vue@3.5.13(typescript@5.7.2))
+      '@vueuse/core': 11.3.0(vue@3.5.13(typescript@5.7.3))
+      element-plus: 2.7.7(vue@3.5.13(typescript@5.7.3))
       schemastery: 3.14.7
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
   schemastery@3.14.5:
     dependencies:
@@ -17040,14 +17031,14 @@ snapshots:
 
   trim-lines@3.0.1: {}
 
-  ts-api-utils@1.3.0(typescript@5.7.2):
+  ts-api-utils@1.3.0(typescript@5.7.3):
     dependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
 
-  tsconfig-utils@3.1.3(typescript@5.7.2):
+  tsconfig-utils@3.1.3(typescript@5.7.3):
     dependencies:
       json5: 2.2.3
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   tslib@2.6.2: {}
 
@@ -17081,7 +17072,7 @@ snapshots:
       media-typer: 0.3.0
       mime-types: 2.1.35
 
-  typescript@5.7.2: {}
+  typescript@5.7.3: {}
 
   ufo@1.5.4: {}
 
@@ -17216,9 +17207,9 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unocss@0.65.1(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2)):
+  unocss@0.65.1(@unocss/webpack@0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3)):
     dependencies:
-      '@unocss/astro': 0.65.1(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/astro': 0.65.1(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
       '@unocss/cli': 0.65.1(rollup@4.30.1)
       '@unocss/core': 0.65.1
       '@unocss/postcss': 0.65.1(postcss@8.4.49)
@@ -17234,7 +17225,7 @@ snapshots:
       '@unocss/transformer-compile-class': 0.65.1
       '@unocss/transformer-directives': 0.65.1
       '@unocss/transformer-variant-group': 0.65.1
-      '@unocss/vite': 0.65.1(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/vite': 0.65.1(rollup@4.30.1)(vite@5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
     optionalDependencies:
       '@unocss/webpack': 0.65.1(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2))
       vite: 5.4.11(@types/node@20.17.12)(sass@1.83.0)(terser@5.37.0)
@@ -17244,9 +17235,9 @@ snapshots:
       - supports-color
       - vue
 
-  unocss@0.65.4(@unocss/webpack@0.65.4(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2)):
+  unocss@0.65.4(@unocss/webpack@0.65.4(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.4.49)(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3)):
     dependencies:
-      '@unocss/astro': 0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/astro': 0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
       '@unocss/cli': 0.65.4(rollup@4.30.1)
       '@unocss/core': 0.65.4
       '@unocss/postcss': 0.65.4(postcss@8.4.49)
@@ -17262,7 +17253,7 @@ snapshots:
       '@unocss/transformer-compile-class': 0.65.4
       '@unocss/transformer-directives': 0.65.4
       '@unocss/transformer-variant-group': 0.65.4
-      '@unocss/vite': 0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/vite': 0.65.4(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
     optionalDependencies:
       '@unocss/webpack': 0.65.4(rollup@4.30.1)(webpack@5.91.0(esbuild@0.24.2))
       vite: 6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0)
@@ -17272,9 +17263,9 @@ snapshots:
       - supports-color
       - vue
 
-  unocss@0.65.4(@unocss/webpack@0.65.4(rollup@4.30.1)(webpack@5.91.0))(postcss@8.4.49)(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2)):
+  unocss@0.65.4(@unocss/webpack@0.65.4(rollup@4.30.1)(webpack@5.91.0))(postcss@8.4.49)(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3)):
     dependencies:
-      '@unocss/astro': 0.65.4(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/astro': 0.65.4(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
       '@unocss/cli': 0.65.4(rollup@4.30.1)
       '@unocss/core': 0.65.4
       '@unocss/postcss': 0.65.4(postcss@8.4.49)
@@ -17290,7 +17281,7 @@ snapshots:
       '@unocss/transformer-compile-class': 0.65.4
       '@unocss/transformer-directives': 0.65.4
       '@unocss/transformer-variant-group': 0.65.4
-      '@unocss/vite': 0.65.4(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@unocss/vite': 0.65.4(rollup@4.30.1)(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
     optionalDependencies:
       '@unocss/webpack': 0.65.4(rollup@4.30.1)(webpack@5.91.0)
       vite: 5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0)
@@ -17302,7 +17293,7 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-auto-import@0.19.0(@nuxt/kit@3.15.1(magicast@0.3.5)(rollup@4.30.1))(@vueuse/core@10.11.1(vue@3.5.13(typescript@5.7.2)))(rollup@4.30.1):
+  unplugin-auto-import@0.19.0(@nuxt/kit@3.15.1(magicast@0.3.5)(rollup@4.30.1))(@vueuse/core@10.11.1(vue@3.5.13(typescript@5.7.3)))(rollup@4.30.1):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.1.3(rollup@4.30.1)
@@ -17313,11 +17304,11 @@ snapshots:
       unplugin: 2.1.0
     optionalDependencies:
       '@nuxt/kit': 3.15.1(magicast@0.3.5)(rollup@4.30.1)
-      '@vueuse/core': 10.11.1(vue@3.5.13(typescript@5.7.2))
+      '@vueuse/core': 10.11.1(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - rollup
 
-  unplugin-vue-components@0.28.0(@babel/parser@7.26.5)(@nuxt/kit@3.15.1(magicast@0.3.5)(rollup@4.30.1))(rollup@4.30.1)(vue@3.5.13(typescript@5.7.2)):
+  unplugin-vue-components@0.28.0(@babel/parser@7.26.5)(@nuxt/kit@3.15.1(magicast@0.3.5)(rollup@4.30.1))(rollup@4.30.1)(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.1.4(rollup@4.30.1)
@@ -17329,7 +17320,7 @@ snapshots:
       minimatch: 9.0.5
       mlly: 1.7.3
       unplugin: 2.1.0
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
     optionalDependencies:
       '@babel/parser': 7.26.5
       '@nuxt/kit': 3.15.1(magicast@0.3.5)(rollup@4.30.1)
@@ -17337,11 +17328,11 @@ snapshots:
       - rollup
       - supports-color
 
-  unplugin-vue-router@0.10.9(rollup@4.30.1)(vue-router@4.5.0(vue@3.5.13(typescript@5.7.2)))(vue@3.5.13(typescript@5.7.2)):
+  unplugin-vue-router@0.10.9(rollup@4.30.1)(vue-router@4.5.0(vue@3.5.13(typescript@5.7.3)))(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       '@babel/types': 7.26.5
       '@rollup/pluginutils': 5.1.4(rollup@4.30.1)
-      '@vue-macros/common': 1.15.1(rollup@4.30.1)(vue@3.5.13(typescript@5.7.2))
+      '@vue-macros/common': 1.15.1(rollup@4.30.1)(vue@3.5.13(typescript@5.7.3))
       ast-walker-scope: 0.6.2
       chokidar: 3.6.0
       fast-glob: 3.3.3
@@ -17354,7 +17345,7 @@ snapshots:
       unplugin: 2.0.0-beta.1
       yaml: 2.7.0
     optionalDependencies:
-      vue-router: 4.5.0(vue@3.5.13(typescript@5.7.2))
+      vue-router: 4.5.0(vue@3.5.13(typescript@5.7.3))
     transitivePeerDependencies:
       - rollup
       - vue
@@ -17509,7 +17500,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-checker@0.8.0(eslint@9.17.0(jiti@2.4.2))(optionator@0.9.4)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.2)):
+  vite-plugin-checker@0.8.0(eslint@9.17.0(jiti@2.4.2))(optionator@0.9.4)(typescript@5.7.3)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.0(typescript@5.7.3)):
     dependencies:
       '@babel/code-frame': 7.26.2
       ansi-escapes: 4.3.2
@@ -17529,8 +17520,8 @@ snapshots:
     optionalDependencies:
       eslint: 9.17.0(jiti@2.4.2)
       optionator: 0.9.4
-      typescript: 5.7.2
-      vue-tsc: 2.2.0(typescript@5.7.2)
+      typescript: 5.7.3
+      vue-tsc: 2.2.0(typescript@5.7.3)
 
   vite-plugin-inspect@0.8.9(@nuxt/kit@3.15.0(magicast@0.3.5)(rollup@4.30.1))(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(sass@1.83.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0)):
     dependencies:
@@ -17617,7 +17608,7 @@ snapshots:
       glob: 10.4.5
       gray-matter: 4.0.3
 
-  vitepress@1.5.0(@algolia/client-search@5.12.0)(@types/node@22.10.5)(async-validator@4.2.5)(axios@1.7.9)(change-case@5.4.4)(postcss@8.4.49)(sass@1.83.0)(search-insights@2.13.0)(terser@5.37.0)(typescript@5.7.2):
+  vitepress@1.5.0(@algolia/client-search@5.12.0)(@types/node@22.10.5)(async-validator@4.2.5)(axios@1.7.9)(change-case@5.4.4)(postcss@8.4.49)(sass@1.83.0)(search-insights@2.13.0)(terser@5.37.0)(typescript@5.7.3):
     dependencies:
       '@docsearch/css': 3.6.3
       '@docsearch/js': 3.6.3(@algolia/client-search@5.12.0)(search-insights@2.13.0)
@@ -17626,17 +17617,17 @@ snapshots:
       '@shikijs/transformers': 1.22.2
       '@shikijs/types': 1.22.2
       '@types/markdown-it': 14.1.2
-      '@vitejs/plugin-vue': 5.1.4(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
+      '@vitejs/plugin-vue': 5.1.4(vite@5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
       '@vue/devtools-api': 7.6.2
       '@vue/shared': 3.5.12
-      '@vueuse/core': 11.2.0(vue@3.5.13(typescript@5.7.2))
-      '@vueuse/integrations': 11.2.0(async-validator@4.2.5)(axios@1.7.9)(change-case@5.4.4)(focus-trap@7.6.0)(vue@3.5.13(typescript@5.7.2))
+      '@vueuse/core': 11.2.0(vue@3.5.13(typescript@5.7.3))
+      '@vueuse/integrations': 11.2.0(async-validator@4.2.5)(axios@1.7.9)(change-case@5.4.4)(focus-trap@7.6.0)(vue@3.5.13(typescript@5.7.3))
       focus-trap: 7.6.0
       mark.js: 8.11.1
       minisearch: 7.1.0
       shiki: 1.22.2
       vite: 5.4.10(@types/node@22.10.5)(sass@1.83.0)(terser@5.37.0)
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
     optionalDependencies:
       postcss: 8.4.49
     transitivePeerDependencies:
@@ -17694,9 +17685,9 @@ snapshots:
     dependencies:
       ufo: 1.5.4
 
-  vue-demi@0.14.10(vue@3.5.13(typescript@5.7.2)):
+  vue-demi@0.14.10(vue@3.5.13(typescript@5.7.3)):
     dependencies:
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
   vue-devtools-stub@0.1.0: {}
 
@@ -17713,37 +17704,37 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vue-flow-layout@0.1.1(vue@3.5.13(typescript@5.7.2)):
+  vue-flow-layout@0.1.1(vue@3.5.13(typescript@5.7.3)):
     dependencies:
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
-  vue-i18n@9.14.2(vue@3.5.13(typescript@5.7.2)):
+  vue-i18n@9.14.2(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       '@intlify/core-base': 9.14.2
       '@intlify/shared': 9.14.2
       '@vue/devtools-api': 6.6.4
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
-  vue-router@4.5.0(vue@3.5.13(typescript@5.7.2)):
+  vue-router@4.5.0(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       '@vue/devtools-api': 6.6.4
-      vue: 3.5.13(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.3)
 
-  vue-tsc@2.2.0(typescript@5.7.2):
+  vue-tsc@2.2.0(typescript@5.7.3):
     dependencies:
       '@volar/typescript': 2.4.11
-      '@vue/language-core': 2.2.0(typescript@5.7.2)
-      typescript: 5.7.2
+      '@vue/language-core': 2.2.0(typescript@5.7.3)
+      typescript: 5.7.3
 
-  vue@3.5.13(typescript@5.7.2):
+  vue@3.5.13(typescript@5.7.3):
     dependencies:
       '@vue/compiler-dom': 3.5.13
       '@vue/compiler-sfc': 3.5.13
       '@vue/runtime-dom': 3.5.13
-      '@vue/server-renderer': 3.5.13(vue@3.5.13(typescript@5.7.2))
+      '@vue/server-renderer': 3.5.13(vue@3.5.13(typescript@5.7.3))
       '@vue/shared': 3.5.13
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   watchpack@2.4.2:
     dependencies:
@@ -17873,16 +17864,16 @@ snapshots:
 
   y18n@5.0.8: {}
 
-  yakumo-esbuild-yaml@0.3.1(yakumo-esbuild@0.3.26(esbuild@0.24.2)(typescript@5.7.2)(yakumo@0.3.13))(yakumo@0.3.13):
+  yakumo-esbuild-yaml@0.3.1(yakumo-esbuild@0.3.26(esbuild@0.24.2)(typescript@5.7.3)(yakumo@0.3.13))(yakumo@0.3.13):
     dependencies:
       js-yaml: 4.1.0
       yakumo: 0.3.13
-      yakumo-esbuild: 0.3.26(esbuild@0.24.2)(typescript@5.7.2)(yakumo@0.3.13)
+      yakumo-esbuild: 0.3.26(esbuild@0.24.2)(typescript@5.7.3)(yakumo@0.3.13)
 
-  yakumo-esbuild@0.3.26(esbuild@0.24.2)(typescript@5.7.2)(yakumo@0.3.13):
+  yakumo-esbuild@0.3.26(esbuild@0.24.2)(typescript@5.7.3)(yakumo@0.3.13):
     dependencies:
       esbuild: 0.24.2
-      tsconfig-utils: 3.1.3(typescript@5.7.2)
+      tsconfig-utils: 3.1.3(typescript@5.7.3)
       yakumo: 0.3.13
     transitivePeerDependencies:
       - typescript
@@ -17903,12 +17894,12 @@ snapshots:
       semver: 7.6.0
       yakumo: 0.3.13
 
-  yakumo-tsc@0.3.12(typescript@5.7.2)(yakumo@0.3.13):
+  yakumo-tsc@0.3.12(typescript@5.7.3)(yakumo@0.3.13):
     dependencies:
-      atsc: 1.2.2(typescript@5.7.2)
-      dtsc: 2.3.0(typescript@5.7.2)
-      tsconfig-utils: 3.1.3(typescript@5.7.2)
-      typescript: 5.7.2
+      atsc: 1.2.2(typescript@5.7.3)
+      dtsc: 2.3.0(typescript@5.7.3)
+      tsconfig-utils: 3.1.3(typescript@5.7.3)
+      typescript: 5.7.3
       yakumo: 0.3.13
 
   yakumo-upgrade@0.3.6(yakumo@0.3.13):
