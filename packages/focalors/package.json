@@ -42,7 +42,7 @@
     "@koishijs/client": "^5.28.0",
     "@koishijs/plugin-hmr": "^1.2.8",
     "@koishijs/scripts": "^4.5.2",
-    "@types/node": "^20.11.26",
+    "@types/node": "^22.0.0",
     "cross-env": "^7.0.3",
     "esbuild": "^0.24.0",
     "esbuild-register": "npm:@shigma/esbuild-register@^1.1.1",
