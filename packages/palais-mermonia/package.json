@@ -16,7 +16,7 @@
     "autoprefixer": "~10.4.18",
     "color-string": "~1.9.1",
     "postcss-plugin-px2rem": "^0.8.1",
-    "postcss-preset-env": "^9.5.0",
+    "postcss-preset-env": "^10.0.0",
     "search-insights": ">=1.0.0 <3.0.0-0",
     "terser": "^5.30.3",
     "typescript": "^5.4.2",
