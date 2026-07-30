@@ -111,7 +111,7 @@ importers:
         specifier: ^7.4.10
         version: 7.4.10(@koishijs/plugin-console@5.30.2(@koishijs/client@5.30.2(@types/node@20.17.17)(@unocss/webpack@0.65.1(rollup@4.34.0)(webpack@5.91.0(esbuild@0.24.2)))(postcss@8.5.1)(rollup@4.34.0)(terser@5.38.1)(typescript@5.7.3))(koishi@4.18.7(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6)))(koishi@4.18.7(@cordisjs/plugin-http@0.6.3(cordis@3.13.6))(cordis@3.13.6))
       '@satorijs/satori':
-        specifier: '>=3.6.3 <4.1.3'
+        specifier: '>=3.6.3 <4.2.6'
         version: 3.6.6
       cordis:
         specifier: '>=3.13.0 <4.0.0-0'
